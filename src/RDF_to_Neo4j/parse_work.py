@@ -1,6 +1,6 @@
 from rdflib import Graph
-from RDF_to_Neo4j.utils import get_id, get_ttl, get_label
-from RDF_to_Neo4j.parse_instance import parse_instance_ttl, get_instance_ids
+from RDF_to_Neo4j.utils import get_id, get_ttl, get_title, get_contribution
+from RDF_to_Neo4j.parse_instance import get_instance_infos
 from rdflib.namespace import Namespace
 
 
@@ -19,19 +19,12 @@ def get_language(g, work_id):
     languages = g.objects(BDR[work_id], BDO["language"])
     for language in languages:
         language_id = get_id(str(language))
-        language_ids.append(language_id)
-    return language_ids
+        if language_id == 'LangBo':
+            language_ids.append('bo')
+        else:
+            language_ids.append(language_id)
+    return {'languages': language_ids}
 
-
-
-def get_instance_info(g, work_id):
-    instance_list = []
-    instance_ids = get_instance_ids(g, work_id)
-    for instance_id in instance_ids:
-        instance_info = parse_instance_ttl(instance_id, work_id)
-        instance_list.append(instance_info)
-    return instance_list
-    
 
 def parse_work_ttl(ttl_file, work_id):
     work_info = {}
@@ -41,12 +34,16 @@ def parse_work_ttl(ttl_file, work_id):
     except Exception as e:
         print("cant read ttl", work_id, e)
         return None
-    title = get_label(g, work_id)
-    instance_info = get_instance_info(g, work_id)
+    title = get_title(g, work_id)
+    language = get_language(g, work_id)
+    contribution = get_contribution(g, work_id)
+    instance_ids = get_instance_list(work_id)
+    instance_infos = get_instance_infos(instance_ids)
     work_info = {
-        "work_id": work_id,
+        "expression_bdrc": work_id,
         "title": title,
-        "instance_info": instance_info
+        'language': language,
+        "instance_infos": instance_infos
     }
     return work_info
 
