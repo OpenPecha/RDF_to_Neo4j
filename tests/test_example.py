@@ -1,4 +1,4 @@
-from project_name.example import add_one
+from RDF_to_Neo4j.parse_instance import add_one
 
 
 def test_add_one():
