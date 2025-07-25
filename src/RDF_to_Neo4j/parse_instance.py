@@ -7,13 +7,12 @@ BDO = Namespace("http://purl.bdrc.io/ontology/core/")
 
 
 def get_instance_ids(g, work_id):
-    scan_ids = []
     instance_ids = []
     instances = list(g.objects(BDR[work_id], BDO["workHasInstance"]))
     for instance in instances:
         id = get_id(str(instance))
         instance_ids.append(id)
-    return instance_ids 
+    return set(instance_ids)
 
 
 def get_work_id(g, instance_id):
@@ -41,7 +40,8 @@ def parse_instance_ttl(instance_id):
     }
     return instance_info
 
-def get_instance_infos(instance_ids):
+def get_instance_infos(g, work_id):
+    instance_ids = get_instance_ids(g, work_id)
     instance_infos = []
     for instance_id in instance_ids:
         instance_info = parse_instance_ttl(instance_id)

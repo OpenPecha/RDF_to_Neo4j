@@ -1,12 +1,13 @@
 import requests
 from rdflib import Graph, Namespace
-from rdflib.namespace import SKOS, Namespace
+from rdflib.namespace import SKOS, RDFS, Namespace
 from pyewts import pyewts
 
 converter = pyewts()
 
 BDR = Namespace("http://purl.bdrc.io/resource/")
 BDO = Namespace("http://purl.bdrc.io/ontology/core/")
+
 
 def wylie_to_tibetan(wylie_text):
     """Convert Wylie transliteration to Tibetan Unicode"""
@@ -25,87 +26,202 @@ def get_ttl(id):
         print(" TTL not Found!!!", e)
         return None
 
+
 def get_id(URI):
     if URI == "None":
         return None
     return URI.split("/")[-1]
 
-def get_creators(g, work_id):
+
+def process_title_literal(literal):
+    text = str(literal) 
+    lang_code = literal.language if hasattr(literal, 'language') else None
+
+    if lang_code == 'bo-x-ewts':
+        converted_text = wylie_to_tibetan(text)
+        return {'text': converted_text, 'code': 'bo'}
+    else:
+        return {'text': text, 'code': lang_code}
+
+
+def get_role(role_id):
+    """
+    Extract role information with language preference: English first, then Tibetan.
+    
+    Args:
+        role_id: Role ID string
+        
+    Returns:
+        dict: Role information with 'text' and 'code' keys, or None if not found
+    """
+    role_ttl = get_ttl(role_id)
+    if not role_ttl:
+        return None
+        
+    g = Graph()
+    g.parse(data=role_ttl, format="ttl")
+    
+    def find_english_label(labels):
+        for label in labels:
+            if hasattr(label, 'language') and label.language == 'en':
+                return process_title_literal(label)
+        return None
+    
+    def find_tibetan_label(labels):
+        for label in labels:
+            if hasattr(label, 'language') and label.language in ['bo', 'bo-x-ewts']:
+                return process_title_literal(label)
+        return None
+    
+    pref_labels = list(g.objects(BDR[role_id], SKOS.prefLabel))
+    if pref_labels:
+        english_pref = find_english_label(pref_labels)
+        if english_pref:
+            return english_pref
+    
+    alt_labels = list(g.objects(BDR[role_id], SKOS.altLabel))
+    if alt_labels:
+        english_alt = find_english_label(alt_labels)
+        if english_alt:
+            return english_alt
+    
+    if pref_labels:
+        tibetan_pref = find_tibetan_label(pref_labels)
+        if tibetan_pref:
+            return tibetan_pref
+    
+    if alt_labels:
+        tibetan_alt = find_tibetan_label(alt_labels)
+        if tibetan_alt:
+            return tibetan_alt
+    
+    if pref_labels:
+        return process_title_literal(pref_labels[0])
+    elif alt_labels:
+        return process_title_literal(alt_labels[0])
+    
+    return None
+
+
+def get_person_name(person_id):
+    """
+    Extract person name information from RDF graph for a given person ID.
+    
+    Args:
+        person_id: Person ID string
+        
+    Returns:
+        dict: Dictionary containing person name information with 'main', 'alternative', and 'has_titles'
+    """
+    person_ttl = get_ttl(person_id)
+    if not person_ttl:
+        return {'names': {'main': None, 'alternative': [], 'has_titles': []}}
+    
+    g = Graph()
+    g.parse(data=person_ttl, format="ttl")
+    
+    name_info = {
+        'main': None,
+        'alternative': []
+    }
+    
+    try:
+        pref_labels = list(g.objects(BDR[person_id], SKOS.prefLabel))
+        if pref_labels:
+            name_info['main'] = process_title_literal(pref_labels[0])
+    except Exception as e:
+        print(f"Error getting prefLabel for person {person_id}: {e}")
+    
+    try:
+        person_names = list(g.objects(BDR[person_id], BDO["personName"]))
+        for person_name_entity in person_names:
+            labels = list(g.objects(person_name_entity, RDFS.label))
+            for label in labels:
+                processed_name = process_title_literal(label)
+                if name_info['main'] and processed_name['text'] != name_info['main']['text']:
+                    name_info['alternative'].append(processed_name)
+                elif not name_info['main']:
+                    name_info['alternative'].append(processed_name)
+    except Exception as e:
+        print(f"Error getting personName for {person_id}: {e}")
+    
+    return {'names': name_info}
+
+
+def get_contribution(g, work_id):
     """
     Extract all creator information from RDF graph for a given work ID.
+    Avoids duplicate persons by checking BDRC IDs.
     
     Args:
         g: RDF graph object
         work_id: Work ID string
-        
+         
     Returns:
-        list: List of creator dictionaries with person and role information
+        list: List of unique contribution dictionaries with person and role information
     """
-    creators_info = []
+    contributions = []
+    seen_bdrc_ids = set()
     
     try:
-        # Get all creator entities (AgentAsCreator) for this work
         creator_entities = list(g.objects(BDR[work_id], BDO["creator"]))
         
         for creator_entity in creator_entities:
-            creator_data = {"contribution": {}}
+            person_id = None
             
-            # Get the person (agent) information
             try:
                 agents = list(g.objects(creator_entity, BDO["agent"]))
                 if agents:
                     person_uri = agents[0]
                     person_id = get_id(str(person_uri))
+                    if person_id in seen_bdrc_ids:
+                        continue
                     
-                    # Get person's name using the title parsing function
-                    person_name_info = get_title(g, person_id)
+                    seen_bdrc_ids.add(person_id)
                     
-                    creator_data["contribution"]["person"] = {
-                        "name": person_name_info,
-                        "bdrc": person_id
-                    }
             except Exception as e:
                 print(f"Error getting agent for creator {creator_entity}: {e}")
-                creator_data["contribution"]["person"] = {
-                    "name": None,
-                    "bdrc": None
-                }
+                continue
+
+            if not person_id:
+                continue
+                
+            contribution = {
+                "person": {
+                    "bdrc": person_id,
+                    "name": {
+                        "main": None,
+                        "alternative": []
+                    }
+                },
+                "role": None
+            }
             
-            # Get the role information
+            try:
+                person_name_data = get_person_name(person_id)
+                if person_name_data and 'names' in person_name_data:
+                    contribution["person"]["name"] = person_name_data['names']
+            except Exception as e:
+                print(f"Error getting person name for {person_id}: {e}")
+            
             try:
                 roles = list(g.objects(creator_entity, BDO["role"]))
                 if roles:
                     role_uri = roles[0]
                     role_id = get_id(str(role_uri))
-                    creator_data["contribution"]["role"] = role_id
-                else:
-                    creator_data["contribution"]["role"] = None
+                    role = get_role(role_id)
+                    contribution["role"] = role
+                    
             except Exception as e:
                 print(f"Error getting role for creator {creator_entity}: {e}")
-                creator_data["contribution"]["role"] = None
             
-            # Get creation event type if it exists
-            try:
-                event_types = list(g.objects(creator_entity, BDO["creationEventType"]))
-                if event_types:
-                    event_type_uri = event_types[0]
-                    event_type_id = get_id(str(event_type_uri))
-                    creator_data["contribution"]["creationEventType"] = event_type_id
-            except Exception as e:
-                # This is optional, so don't print error
-                pass
-            
-            creators_info.append(creator_data)
+            contributions.append(contribution)
             
     except Exception as e:
         print(f"Error getting creators for work {work_id}: {e}")
     
-    return creators_info
+    return contributions
 
-
-def get_contribution(g, id):
-    creators = get_creators(g, id)
-    return creators
 
 
 def get_title(g, id):
@@ -120,23 +236,12 @@ def get_title(g, id):
         dict: Dictionary containing 'main_title', 'alternative_titles', and 'has_titles'
               Each title is a dict with 'text' and 'code' keys
     """
-    def process_title_literal(literal):
-        text = str(literal) 
-        lang_code = literal.language if hasattr(literal, 'language') else None
-
-        if lang_code == 'bo-x-ewts':
-            converted_text = wylie_to_tibetan(text)
-            return {'text': converted_text, 'code': 'bo'}
-        else:
-            return {'text': text, 'code': lang_code}
-    
     title_info = {
         'main': None,
         'alternative': [],
         'has_titles': []
     }
     
-    # Get prefLabel as main title
     try:
         pref_labels = list(g.objects(BDR[id], SKOS.prefLabel))
         if pref_labels:
@@ -144,7 +249,6 @@ def get_title(g, id):
     except Exception as e:
         print(f"Error getting prefLabel for {id}: {e}")
     
-    # Get all altLabels as alternative titles
     try:
         alt_labels = list(g.objects(BDR[id], SKOS.altLabel))
         for alt_label in alt_labels:
@@ -153,13 +257,39 @@ def get_title(g, id):
     except Exception as e:
         print(f"Error getting altLabels for {id}: {e}")
     
-    # Check for hasTitle property (bdo:hasTitle)
     try:
         has_titles = list(g.objects(BDR[id], BDO["hasTitle"]))
         for has_title in has_titles:
-            processed_title = process_title_literal(has_title)
+            title_id = get_id(str(has_title))
+            processed_title = get_title_from_id(title_id)
             title_info['has_titles'].append(processed_title)
     except Exception as e:
         print(f"Error getting hasTitle for {id}: {e}")
     
     return {'titles': title_info}
+
+def get_title_from_id(id):
+    ttl = get_ttl(id)
+    if not ttl:
+        return None
+    g = Graph()
+    g.parse(data=ttl, format="ttl")
+    title_info = {
+        'main': None,
+        'alternative': []
+    }
+    try:
+        pref_labels = list(g.objects(BDR[id], SKOS.prefLabel))
+        if pref_labels:
+            title_info['main'] = process_title_literal(pref_labels[0])
+    except Exception as e:
+        print(f"Error getting prefLabel for {id}: {e}")
+    
+    try:
+        alt_labels = list(g.objects(BDR[id], SKOS.altLabel))
+        for alt_label in alt_labels:
+            processed_title = process_title_literal(alt_label)
+            title_info['alternative'].append(processed_title)
+    except Exception as e:
+        print(f"Error getting altLabels for {id}: {e}")
+    return title_info
