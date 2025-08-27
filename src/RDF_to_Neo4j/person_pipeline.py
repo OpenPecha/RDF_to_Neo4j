@@ -22,30 +22,33 @@ def process_literal(literal):
 def extract_person_data(person_id, graph):
     person_data = {
         "bdrc_id": person_id,
-        "name": None,
+        "name": [],
         "alt_names": []
     }
+    persons = []
     
     try:
         # Get main name from prefLabel
         pref_labels = list(graph.objects(BDR[person_id], SKOS.prefLabel))
         if pref_labels:
-            person_data["name"] = process_literal(pref_labels[0])
+            for pref_label in pref_labels:
+                person_data["name"].append(process_literal(pref_label))
+        
+        all_names = []
+        for names in person_data["name"]:
+            for _, name in names.items():
+                all_names.append(name)
 
-        # Get alternative names from personName entities
         person_names = list(graph.objects(BDR[person_id], BDO["personName"]))
         for person_name_entity in person_names:
-            # Get the rdfs:label for each person name entity
             labels = list(graph.objects(person_name_entity, RDFS.label))
             for label in labels:
                 processed_name = process_literal(label)
-                # Avoid duplicating the main name
-                for _, name in enumerate(person_data["name"]):
-                    if name == processed_name.values():
-                        continue
-                    else:
-                        person_data["alt_names"].append(processed_name)
-        
+                name = list(processed_name.values())
+                if name not in all_names:
+                    persons.append(processed_name)
+            person_data["alt_names"].append(persons)
+            persons = []
     except Exception as e:
         print(f"Error extracting data for person {person_id}: {e}")
     return person_data
@@ -75,10 +78,14 @@ def main():
     
     for folder_name, files in person_files.items():
         folder_data = []
+        if folder_name == '52':
+            continue
         print(f"Processing folder: {folder_name} ({len(files)} files)")
-        
+        if Path(f"./data/{folder_name}.json").exists():
+            continue
         for person_file in person_files[folder_name]:
             person_id = person_file.stem
+            # person_id = 'P9972'
             ttl = get_ttl(person_id)
             person_graph = Graph()
             person_graph.parse(data=ttl, format="ttl")
@@ -92,8 +99,10 @@ def main():
             write_to_json(folder_data, folder_name)
             print(f"Wrote {len(folder_data)} persons for folder {folder_name}")
             folder_data = {}
-            break
 
 
 if __name__ == "__main__":
     main()
+
+
+    # 3c, 33, d9

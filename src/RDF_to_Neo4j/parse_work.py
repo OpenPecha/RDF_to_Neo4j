@@ -34,17 +34,17 @@ def parse_work_ttl(ttl_file, work_id):
     except Exception as e:
         print("cant read ttl", work_id, e)
         return None
-    # title = get_title(g, work_id)
-    # language = get_language(g, work_id)
-    # contribution = get_contribution(g, work_id)
-    instance_infos = get_instance_infos(g, work_id)
-    work_info = {
-        "expression_bdrc": work_id,
-        "title": title,
-        'language': language,
-        "instance_infos": instance_infos,
-        "contribution": contribution
-    }
+    title = get_title(g, work_id)
+    language = get_language(g, work_id)
+    contribution = get_contribution(g, work_id)
+    # instance_infos = get_instance_infos(g, work_id)
+    # work_info = {
+    #     "expression_bdrc": work_id,
+    #     "title": title,
+    #     'language': language,
+    #     "instance_infos": instance_infos,
+    #     "contribution": contribution
+    # }
     return work_info
 
 
