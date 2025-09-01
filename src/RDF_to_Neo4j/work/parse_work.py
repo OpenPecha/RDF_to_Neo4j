@@ -1,6 +1,6 @@
 from rdflib import Graph
 from RDF_to_Neo4j.utils import get_id, get_ttl, get_title, get_contribution
-from RDF_to_Neo4j.parse_instance import get_instance_infos
+from RDF_to_Neo4j.person.parse_instance import get_instance_infos
 from rdflib.namespace import Namespace
 
 
@@ -38,13 +38,12 @@ def parse_work_ttl(ttl_file, work_id):
     language = get_language(g, work_id)
     contribution = get_contribution(g, work_id)
     # instance_infos = get_instance_infos(g, work_id)
-    # work_info = {
-    #     "expression_bdrc": work_id,
-    #     "title": title,
-    #     'language': language,
-    #     "instance_infos": instance_infos,
-    #     "contribution": contribution
-    # }
+    work_info = {
+        "expression_bdrc": work_id,
+        "title": title,
+        'language': language,
+        "contribution": contribution
+    }
     return work_info
 
 

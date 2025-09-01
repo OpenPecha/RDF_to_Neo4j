@@ -1,0 +1,24 @@
+{
+    "expression_bdrc": "WA1KG12670",
+    "title": {
+        "titles": {
+            "main": {
+                "text": "རྡོ་རྗེ་གཅོད་པ།",
+                "code": "bo"
+            },
+            "alternative": [
+                {
+                    "text": "འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་རྡོ་རྗེ་གཅོད་པ།",
+                    "code": "bo"
+                }
+            ],
+            "has_titles": []
+        }
+    },
+    "language": {
+        "languages": [
+            "bo"
+        ]
+    },
+    "contribution": []
+}

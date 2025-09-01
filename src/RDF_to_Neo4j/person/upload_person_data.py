@@ -36,18 +36,14 @@ def upload_person_data():
         for person in persons:
             person_id = person["bdrc_id"]
             # Skip if already uploaded
-            if person_id in uploaded_ids:
+            # if person_id in uploaded_ids:
+            #     continue
+            if person_id != "P2KG209992":
                 continue
                 
             alt_names = []
             for alt_name in person["alt_names"]:
                 alt_names.append(process_name(alt_name))
-    
-            data = {
-                "bdrc": person["bdrc_id"],
-                "name": process_name(person["name"]),
-                "alt_names": alt_names
-            }
             
             # Upload to API
             response = requests.post("https://api-l25bgmwqoa-uc.a.run.app/v2/persons", json=data)

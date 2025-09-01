@@ -1,0 +1,5081 @@
+[
+  {
+    "file": "4f.json",
+    "bdrc_id": "P0AT0163",
+    "empty_type": "empty_list",
+    "path": "person[59].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0163",
+      "name": [
+        {
+          "sa-x-iast": "Bhāravi"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "4f.json",
+    "bdrc_id": "P0AT0256",
+    "empty_type": "empty_list",
+    "path": "person[80].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0256",
+      "name": [
+        {
+          "sa-x-iast": "Āryabhaṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "bb.json",
+    "bdrc_id": "P8080",
+    "empty_type": "empty_list",
+    "path": "person[58].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P8080",
+      "name": [
+        {
+          "bo": "སྨར་འཇའ་དམ་ཆོས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "དམ་ཆོས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "སྒ་བུ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "སྨར་འཇའ་དམ་ཆོས་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "b9.json",
+    "bdrc_id": "P4800",
+    "empty_type": "empty_list",
+    "path": "person[87].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P4800",
+      "name": [
+        {
+          "bo": "རྡོ་རམས་པ་འཇམ་དབྱངས་སྦྱིན་པ་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "རྡོ་རམས་པ་འཇམ་དབྱངས་སྦྱིན་པ་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "སྦྱིན་པ་རྒྱ་མཚོ,་འཇམ་དབྱངས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "མགར་རྩེ་འཇམ་དབྱངས་སྦྱིན་པ་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "འཇམ་དབྱངས་སྦྱིན་པ་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "20.json",
+    "bdrc_id": "P0AT0131",
+    "empty_type": "empty_list",
+    "path": "person[2].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0131",
+      "name": [
+        {
+          "sa-x-iast": "Jīva"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "20.json",
+    "bdrc_id": "P0AT0127",
+    "empty_type": "empty_list",
+    "path": "person[4].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0127",
+      "name": [
+        {
+          "sa-x-iast": "Prabodhānanda Sarasvatī"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "20.json",
+    "bdrc_id": "P6613",
+    "empty_type": "empty_list",
+    "path": "person[7].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P6613",
+      "name": [
+        {
+          "bo": "པདྨ་འོད་གསལ་མཐའ་ཡས།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "པདྨ་འོད་གསལ་མཐའ་ཡས།"
+          }
+        ],
+        [
+          {
+            "bo": "ཐུབ་བསྟན་གྲགས་པ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "20.json",
+    "bdrc_id": "P0AT0188",
+    "empty_type": "empty_list",
+    "path": "person[24].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0188",
+      "name": [
+        {
+          "sa-x-iast": "Viṣṇuśarma"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "20.json",
+    "bdrc_id": "P0AT0221",
+    "empty_type": "empty_list",
+    "path": "person[93].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0221",
+      "name": [
+        {
+          "sa-x-iast": "Kapila"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "77.json",
+    "bdrc_id": "P2KG209992",
+    "empty_type": "empty_list",
+    "path": "person[6].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P2KG209992",
+      "name": [
+        {
+          "bo": "ཤིས་ཚང་ཚུལ་ཁྲིམས།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo-Latn-wadegile": "shis tshang a ru/"
+          }
+        ],
+        [
+          {
+            "bo": "ཤིས་ཚང་ཚུལ་ཁྲིམས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "8e.json",
+    "bdrc_id": "P0AT0308",
+    "empty_type": "empty_list",
+    "path": "person[50].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0308",
+      "name": [
+        {
+          "sa-x-iast": "Jayasena I"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "36.json",
+    "bdrc_id": "P0AT0215",
+    "empty_type": "empty_list",
+    "path": "person[7].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0215",
+      "name": [
+        {
+          "sa-x-iast": "Vāmanadatta"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "dc.json",
+    "bdrc_id": "P0AT0306",
+    "empty_type": "empty_list",
+    "path": "person[7].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0306",
+      "name": [
+        {
+          "sa-x-iast": "Mañjuśrīrājakīrti"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "16.json",
+    "bdrc_id": "P0AT0149",
+    "empty_type": "empty_list",
+    "path": "person[64].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0149",
+      "name": [
+        {
+          "sa-x-iast": "Udbhaṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ad.json",
+    "bdrc_id": "P0AT0245",
+    "empty_type": "empty_list",
+    "path": "person[16].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0245",
+      "name": [
+        {
+          "sa-x-iast": "Bhāvamiśra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ad.json",
+    "bdrc_id": "P2KG221945",
+    "empty_type": "empty_list",
+    "path": "person[26].name",
+    "person_data": {
+      "bdrc_id": "P2KG221945",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ad.json",
+    "bdrc_id": "P2KG221945",
+    "empty_type": "empty_list",
+    "path": "person[26].alt_names",
+    "person_data": {
+      "bdrc_id": "P2KG221945",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ad.json",
+    "bdrc_id": "P0AT0181",
+    "empty_type": "empty_list",
+    "path": "person[34].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0181",
+      "name": [
+        {
+          "sa-x-iast": "Udīcya Śyāmilaka"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "00.json",
+    "bdrc_id": "P0AT0134",
+    "empty_type": "empty_list",
+    "path": "person[33].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0134",
+      "name": [
+        {
+          "sa-x-iast": "Kulaśekhara"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "57.json",
+    "bdrc_id": "P0AT0232",
+    "empty_type": "empty_list",
+    "path": "person[42].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0232",
+      "name": [
+        {
+          "sa-x-iast": "Maṇḍana Miśra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "b5.json",
+    "bdrc_id": "P0AT0243",
+    "empty_type": "empty_list",
+    "path": "person[5].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0243",
+      "name": [
+        {
+          "sa-x-iast": "Mīnanātha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "6f.json",
+    "bdrc_id": "P1KG5810",
+    "empty_type": "empty_list",
+    "path": "person[55].alt_names[3]",
+    "person_data": {
+      "bdrc_id": "P1KG5810",
+      "name": [
+        {
+          "bo": "མཁན་ཤེས་རབ་དཔལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "མཁན་ཤེས་རབ་དཔལ།"
+          }
+        ],
+        [
+          {
+            "bo": "མགོ་ལོག་ངག་དབང་ཤེས་རབ་དཔལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ངག་དབང་ཤེས་རབ་དཔལ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "c3.json",
+    "bdrc_id": "P0AT0224",
+    "empty_type": "empty_list",
+    "path": "person[21].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0224",
+      "name": [
+        {
+          "sa-x-iast": "Vijñānabhikṣu"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "c2.json",
+    "bdrc_id": "P0AT0328",
+    "empty_type": "empty_list",
+    "path": "person[76].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0328",
+      "name": [
+        {
+          "sa-x-iast": "Dharmatrāta (II)"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "f5.json",
+    "bdrc_id": "P4823",
+    "empty_type": "empty_list",
+    "path": "person[6].alt_names[6]",
+    "person_data": {
+      "bdrc_id": "P4823",
+      "name": [
+        {
+          "bo": "ཡོངས་འཛིན་དཔོན་བྲང་།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བཀྲ་ཤིས་ལྷུན་པོ་རྒྱུད་པ་གྲྭ་ཚང་། ཁྲི་ཐོག ༢༥་བསྟན་འཛིན་དབང་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་བསྟན་འཛིན་དབང་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ལྷོ་སྤྲུལ་ཡོངས་འཛིན་བློ་བཟང་བསྟན་འཛིན་དབང་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "དཔོན་བྲང་བསྟན་འཛིན་དབང་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཡོངས་འཛིན་དཔོན་བྲང་བསྟན་འཛིན་དབང་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཡོངས་འཛིན་དཔོན་བྲང་།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "བསྟན་འཛིན་དབང་རྒྱལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "f5.json",
+    "bdrc_id": "P254",
+    "empty_type": "empty_list",
+    "path": "person[7].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P254",
+      "name": [
+        {
+          "bo": "དཔའ་རིས་རབ་གསལ།"
+        },
+        {
+          "zh-Hans": "华热·洛桑饶色｜华热饶色"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བློ་བཟང་རབ་གསལ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "སྐུ་འབུམ་བྱམས་པ་གླིང་གི་དཀའ་བཞི་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "སུ་དྷི་པྲ་ཀ་ཤ"
+          }
+        ],
+        [
+          {
+            "zh-Hans": "华热·洛桑饶色｜华热饶色"
+          }
+        ],
+        [
+          {
+            "bo": "དཔའ་རིས་བློ་བཟང་རབ་གསལ།"
+          }
+        ],
+        [
+          {
+            "bo": "དཔའ་རིས་རབ་གསལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "7a.json",
+    "bdrc_id": "P0AT0234",
+    "empty_type": "empty_list",
+    "path": "person[5].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0234",
+      "name": [
+        {
+          "sa-x-iast": "Jayatīrtha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "2f.json",
+    "bdrc_id": "P6266",
+    "empty_type": "empty_list",
+    "path": "person[61].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P6266",
+      "name": [
+        {
+          "bo": "སྨན་པ་ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "སྨན་པ་ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "b4.json",
+    "bdrc_id": "P0AT0314",
+    "empty_type": "empty_list",
+    "path": "person[40].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0314",
+      "name": [
+        {
+          "sa-x-iast": "Dharmamitra I"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "01.json",
+    "bdrc_id": "P1KG17629",
+    "empty_type": "empty_list",
+    "path": "person[27].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1KG17629",
+      "name": [
+        {
+          "bo": "མི་ཕམ་ངག་གི་དབང་ཕྱུག"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "མི་ཕམ་ངག་གི་དབང་ཕྱུག"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "ae.json",
+    "bdrc_id": "P0AT0210",
+    "empty_type": "empty_list",
+    "path": "person[46].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0210",
+      "name": [
+        {
+          "sa-x-iast": "Ādyanātha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ae.json",
+    "bdrc_id": "P0AT0237",
+    "empty_type": "empty_list",
+    "path": "person[80].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0237",
+      "name": [
+        {
+          "sa-x-iast": "Svātmārāma"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "17.json",
+    "bdrc_id": "P179",
+    "empty_type": "empty_list",
+    "path": "person[42].alt_names[7]",
+    "person_data": {
+      "bdrc_id": "P179",
+      "name": [
+        {
+          "bo": "ཏཱ་ལའི་བླ་མ ༠༧་བསྐལ་བཟང་རྒྱ་མཚོ།"
+        },
+        {
+          "en": "Dalai Lama 07 Kelzang Gyatso/"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཏཱ་ལའི་བླ་མ ༠༧་བསྐལ་བཟང་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཏཱ་ལའི་བླ་མ ༠༧"
+          }
+        ],
+        [
+          {
+            "bo": "ཏཱ་ལའི་བླ་མ ༠༧"
+          }
+        ],
+        [
+          {
+            "en": "Dalai Lama 07"
+          }
+        ],
+        [
+          {
+            "bo": "རྒྱལ་བ་བསྐལ་བཟང་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "བསྐལ་བཟང་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "en": "Dalai Lama 07 Kelzang Gyatso/"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "db.json",
+    "bdrc_id": "P343",
+    "empty_type": "empty_list",
+    "path": "person[57].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P343",
+      "name": [
+        {
+          "bo": "མདོ་མཁར་ཞབས་དྲུང་ཚེ་རིང་དབང་རྒྱལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཚེ་རིང་དབང་རྒྱལ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "མདོ་མཁར་ཞབས་དྲུང་ཚེ་རིང་དབང་རྒྱལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "d9.json",
+    "bdrc_id": "P0AT0141",
+    "empty_type": "empty_list",
+    "path": "person[37].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0141",
+      "name": [
+        {
+          "sa-x-iast": "Bhāmaha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "f9.json",
+    "bdrc_id": "P0AT0218",
+    "empty_type": "empty_list",
+    "path": "person[1].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0218",
+      "name": [
+        {
+          "sa-x-iast": "Bhāsarvajña"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "fb.json",
+    "bdrc_id": "P6264",
+    "empty_type": "empty_list",
+    "path": "person[40].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P6264",
+      "name": [
+        {
+          "bo": "བློ་བཟང་བློ་གྲོས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ལབ་ཕན་འདུམ་བློ་བཟང་བློ་གྲོས།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་བློ་གྲོས།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "fb.json",
+    "bdrc_id": "P5173",
+    "empty_type": "empty_list",
+    "path": "person[61].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P5173",
+      "name": [
+        {
+          "bo": "རྒྱལ་མཁན་ཆེན་སྐལ་བཟང་གྲགས་པ་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo-x-phon-en-m-tbrc": "Gyel Khenpo Tulku 04"
+          }
+        ],
+        [
+          {
+            "bo": "ཤིས་ཚང་གདན་རབས ༣༥"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "སྐལ་བཟང་བསྟན་པ་རབ་རྒྱས།"
+          }
+        ],
+        [
+          {
+            "bo": "རྒྱལ་མཁན་ཆེན་སྐལ་བཟང་གྲགས་པ་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "རྒྱལ་མཁན་པོའི་སྤྲུལ་སྐུ ༠༤"
+          }
+        ],
+        [
+          {
+            "bo": "སྐལ་བཟང་གྲགས་པ་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "བླ་བྲང་ཁྲི ༧༤"
+          }
+        ],
+        [
+          {
+            "bo": "བླ་བྲང་གདན་རབས ༧༤"
+          }
+        ],
+        [
+          {
+            "bo": "རྔ་ཡུལ་སྒོ་མང་ཁྲི ༢༢"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "fb.json",
+    "bdrc_id": "P0AT0190",
+    "empty_type": "empty_list",
+    "path": "person[74].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0190",
+      "name": [
+        {
+          "sa-x-iast": "Govind Kaul"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "8d.json",
+    "bdrc_id": "P0AT0117",
+    "empty_type": "empty_list",
+    "path": "person[31].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0117",
+      "name": [
+        {
+          "sa-x-iast": "Keśava"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "99.json",
+    "bdrc_id": "P0AT0160",
+    "empty_type": "empty_list",
+    "path": "person[29].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0160",
+      "name": [
+        {
+          "sa-x-iast": "Ānandabhaṭṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "99.json",
+    "bdrc_id": "P1KG8472",
+    "empty_type": "empty_list",
+    "path": "person[64].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1KG8472",
+      "name": [
+        {
+          "bo": "སྐལ་བཟང་བསོད་ནམས།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "སྐལ་བཟང་བསོད་ནམས།"
+          }
+        ],
+        [
+          {
+            "bo": "རྨ་བསོད།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "76.json",
+    "bdrc_id": "P5425",
+    "empty_type": "empty_list",
+    "path": "person[33].alt_names[3]",
+    "person_data": {
+      "bdrc_id": "P5425",
+      "name": [
+        {
+          "bo": "སྙན་དགོན་སྤྲུལ་སྐུ་མདོ་སྔགས་ཆོས་ཀྱི་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བློ་བཟང་མདོ་སྔགས་ཆོས་ཀྱི་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "སྤྲུལ་སྐུ་གསུང་རབ་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "མདོ་སྔགས་ཆོས་ཀྱི་རྒྱ་མཚོ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "སྙན་དགོན་སྤྲུལ་སྐུ་མདོ་སྔགས་ཆོས་ཀྱི་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཀུན་བཟང་བཞད་པའི་རྡོ་རྗེ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཐུབ་བསྟན་ཟླ་བ་བཟང་པོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "76.json",
+    "bdrc_id": "P7658",
+    "empty_type": "empty_list",
+    "path": "person[38].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P7658",
+      "name": [
+        {
+          "bo": "སི་ཏུ་དབོན་སྤྲུལ་ཀརྨ་ངེས་དོན་སྙིང་པོ་གཞན་ཕན་ཆོས་ཀྱི་དབང་ཕྱུག"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཀརྨ་ངེས་དོན་སྙིང་པོ།"
+          }
+        ],
+        [
+          {
+            "bo": "སི་ཏུ་དབོན་སྤྲུལ་ཀརྨ་ངེས་དོན་སྙིང་པོ་གཞན་ཕན་ཆོས་ཀྱི་དབང་ཕྱུག"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "9b.json",
+    "bdrc_id": "P0AT0266",
+    "empty_type": "empty_list",
+    "path": "person[60].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0266",
+      "name": [
+        {
+          "sa-x-iast": "Bhāskarakaṇṭha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "b8.json",
+    "bdrc_id": "P8092",
+    "empty_type": "empty_list",
+    "path": "person[16].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P8092",
+      "name": [
+        {
+          "bo": "བློ་བཟང་སྦྱིན་པ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "སྨད་སོག་བ་ཛྲ།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་སྦྱིན་པ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "bc.json",
+    "bdrc_id": "P0AT0165",
+    "empty_type": "empty_list",
+    "path": "person[63].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0165",
+      "name": [
+        {
+          "sa-x-iast": "Bhaṭṭi"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0f.json",
+    "bdrc_id": "P1152",
+    "empty_type": "empty_list",
+    "path": "person[31].alt_names[6]",
+    "person_data": {
+      "bdrc_id": "P1152",
+      "name": [
+        {
+          "bo": "རྔ་རྒོད ༠༣་ནམ་མཁའ་སེངྒེ"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ངར་རྒོད་སྐུ་སྐྱེ ༠༣་ནམ་མཁའ་སེངྒེ"
+          }
+        ],
+        [
+          {
+            "bo": "རྔ་རྒོད ༠༣་ནམ་མཁའ་སེངྒེ"
+          }
+        ],
+        [
+          {
+            "bo": "རྔ་རྒོད་ནམ་མཁའ་སེངྒེ"
+          }
+        ],
+        [
+          {
+            "bo": "ནམ་མཁའ་སེངྒེ"
+          }
+        ],
+        [
+          {
+            "bo-x-phon-en-m-tbrc": "Ngagod 03"
+          }
+        ],
+        [
+          {
+            "bo": "རྔ་རྒོད ༠༣"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "0f.json",
+    "bdrc_id": "P0AT0180",
+    "empty_type": "empty_list",
+    "path": "person[60].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0180",
+      "name": [
+        {
+          "sa-x-iast": "Mahendravarman I"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0f.json",
+    "bdrc_id": "P0AT0191",
+    "empty_type": "empty_list",
+    "path": "person[67].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0191",
+      "name": [
+        {
+          "sa-x-iast": "Jayāditya"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "a2.json",
+    "bdrc_id": "P4379",
+    "empty_type": "empty_list",
+    "path": "person[66].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P4379",
+      "name": [
+        {
+          "bo": "འོ་རྫོང་པཎྜི་ཏ་བློ་བཟང་སྦྱིན་པ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཀོ་རྫོང་པཎཌི་ཏ་བློ་བཟང་སྦྱིན་པ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "བློ་བཟང་སྦྱིན་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "འོ་རྫོང་པཎྜི་ཏ་བློ་བཟང་སྦྱིན་པ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "d5.json",
+    "bdrc_id": "P4CZ16781",
+    "empty_type": "empty_list",
+    "path": "person[30].name",
+    "person_data": {
+      "bdrc_id": "P4CZ16781",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "d5.json",
+    "bdrc_id": "P4CZ16781",
+    "empty_type": "empty_list",
+    "path": "person[30].alt_names",
+    "person_data": {
+      "bdrc_id": "P4CZ16781",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "47.json",
+    "bdrc_id": "P0AT0330",
+    "empty_type": "empty_list",
+    "path": "person[3].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0330",
+      "name": [
+        {
+          "sa-x-iast": "Candrakīrti"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "47.json",
+    "bdrc_id": "P0AT0137",
+    "empty_type": "empty_list",
+    "path": "person[26].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0137",
+      "name": [
+        {
+          "sa-x-iast": "Raghunāthadāsa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "de.json",
+    "bdrc_id": "P0AT0203",
+    "empty_type": "empty_list",
+    "path": "person[23].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0203",
+      "name": [
+        {
+          "sa-x-iast": "Annambhaṭṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "a9.json",
+    "bdrc_id": "P0AT0212",
+    "empty_type": "empty_list",
+    "path": "person[21].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0212",
+      "name": [
+        {
+          "sa-x-iast": "Kṣemarāja"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "51.json",
+    "bdrc_id": "P0AT0259",
+    "empty_type": "empty_list",
+    "path": "person[2].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0259",
+      "name": [
+        {
+          "sa-x-iast": "Brahmagupta"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "51.json",
+    "bdrc_id": "P1683",
+    "empty_type": "empty_list",
+    "path": "person[3].alt_names[5]",
+    "person_data": {
+      "bdrc_id": "P1683",
+      "name": [
+        {
+          "bo": "གཤེན་མཁས་གྲུབ་ཚུལ་ཁྲིམས་རྒྱལ་མཚན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཚུལ་ཁྲིམས་རྒྱལ་མཚན,་གཤེན་མཁས་གྲུབ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཁྲག་འཐུང་རྡོ་རྗེ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཐོས་པ་རང་གྲོལ,་མཁས་གྲུབ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཤཱི་ལ་དྷྭཛ།"
+          }
+        ],
+        [
+          {
+            "bo": "གཤེན་མཁས་གྲུབ་ཚུལ་ཁྲིམས་རྒྱལ་མཚན།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ཚུལ་ཁྲིམས་རྒྱལ་མཚན།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "51.json",
+    "bdrc_id": "P1KG3996",
+    "empty_type": "empty_list",
+    "path": "person[11].alt_names[3]",
+    "person_data": {
+      "bdrc_id": "P1KG3996",
+      "name": [
+        {
+          "bo": "བློ་གྲོས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བློ་གྲོས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་གྲོས་རྒྱ་མཚོ,་ཨ་མདོ།"
+          }
+        ],
+        [
+          {
+            "bo": "དུས་འཁོར་བ་བློ་གྲོས་རྒྱ་མཚོ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "b3.json",
+    "bdrc_id": "P221",
+    "empty_type": "empty_list",
+    "path": "person[59].alt_names[3]",
+    "person_data": {
+      "bdrc_id": "P221",
+      "name": [
+        {
+          "bo": "རྫོང་དཀར་འཇིགས་མེད་དམ་ཆོས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཨ་བྷྱ་མཚན་ཅན"
+          }
+        ],
+        [
+          {
+            "bo": "འཇིགས་མེད་དམ་ཆོས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "རིན་འབྱུང་སྒེག་པའི་རྡོ་རྗེ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "རྫོང་དཀར་འཇིགས་མེད་དམ་ཆོས་རྒྱ་མཚོ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "b3.json",
+    "bdrc_id": "P221",
+    "empty_type": "empty_list",
+    "path": "person[59].alt_names[5]",
+    "person_data": {
+      "bdrc_id": "P221",
+      "name": [
+        {
+          "bo": "རྫོང་དཀར་འཇིགས་མེད་དམ་ཆོས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཨ་བྷྱ་མཚན་ཅན"
+          }
+        ],
+        [
+          {
+            "bo": "འཇིགས་མེད་དམ་ཆོས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "རིན་འབྱུང་སྒེག་པའི་རྡོ་རྗེ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "རྫོང་དཀར་འཇིགས་མེད་དམ་ཆོས་རྒྱ་མཚོ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "84.json",
+    "bdrc_id": "P1KG493",
+    "empty_type": "empty_list",
+    "path": "person[53].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1KG493",
+      "name": [
+        {
+          "bo": "བསམ་གཏན་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "བསམ་གཏན་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "f2.json",
+    "bdrc_id": "P0AT0158",
+    "empty_type": "empty_list",
+    "path": "person[46].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0158",
+      "name": [
+        {
+          "sa-x-iast": "Abhinanda"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "f2.json",
+    "bdrc_id": "P0AT0276",
+    "empty_type": "empty_list",
+    "path": "person[79].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0276",
+      "name": [
+        {
+          "sa-x-iast": "Kamalaguhya"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "d2.json",
+    "bdrc_id": "P6260",
+    "empty_type": "empty_list",
+    "path": "person[80].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P6260",
+      "name": [
+        {
+          "bo": "བློ་བཟང་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བློ་བཟང་རྒྱ་མཚོ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "a5.json",
+    "bdrc_id": "P1712",
+    "empty_type": "empty_list",
+    "path": "person[18].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P1712",
+      "name": [
+        {
+          "bo": "སྟག་སྒང་མཁས་མཆོག་གུ་རུ་བཀྲ་ཤིས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ངག་དབང་བློ་གྲོས,་སྟག་སྒང་མཁས་མཆོག"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "གུ་རུ་བཀྲ་ཤིས།"
+          }
+        ],
+        [
+          {
+            "bo": "སྟག་སྒང་མཁས་མཆོག་གུ་རུ་བཀྲ་ཤིས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "0a.json",
+    "bdrc_id": "P972",
+    "empty_type": "empty_list",
+    "path": "person[46].name",
+    "person_data": {
+      "bdrc_id": "P972",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0a.json",
+    "bdrc_id": "P972",
+    "empty_type": "empty_list",
+    "path": "person[46].alt_names",
+    "person_data": {
+      "bdrc_id": "P972",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0a.json",
+    "bdrc_id": "P0AT0175",
+    "empty_type": "empty_list",
+    "path": "person[50].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0175",
+      "name": [
+        {
+          "sa-x-iast": "Rudrabhaṭṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0a.json",
+    "bdrc_id": "P5924",
+    "empty_type": "empty_list",
+    "path": "person[62].alt_names[5]",
+    "person_data": {
+      "bdrc_id": "P5924",
+      "name": [
+        {
+          "bo": "དགེ་བཤེས་ལྷ་མོ་ཚུལ་ཁྲིམས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཨ་ཁུ་ལྷ་མོ་ཚུལ་ཁྲིམས།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་ཚུལ་ཁྲིམས།"
+          }
+        ],
+        [
+          {
+            "bo": "ལྷ་མོ་ཚུལ་ཁྲིམས།"
+          }
+        ],
+        [
+          {
+            "bo": "དགེ་བཤེས་ལྷ་མོ་ཚུལ་ཁྲིམས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "རྡོ་རམས་པ་བློ་བཟང་ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "5f.json",
+    "bdrc_id": "P8322",
+    "empty_type": "empty_list",
+    "path": "person[1].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P8322",
+      "name": [
+        {
+          "bo": "འཕྲིན་ལས་འོད་ཟེར།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "འཕྲིན་ལས་འོད་ཟེར།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "འཕྲིན་ལས་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "5f.json",
+    "bdrc_id": "P0AT0182",
+    "empty_type": "empty_list",
+    "path": "person[38].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0182",
+      "name": [
+        {
+          "sa-x-iast": "Buddhasvāmin"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "e4.json",
+    "bdrc_id": "P0AT0195",
+    "empty_type": "empty_list",
+    "path": "person[21].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0195",
+      "name": [
+        {
+          "sa-x-iast": "Jayarāśi"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "e4.json",
+    "bdrc_id": "P2LS533",
+    "empty_type": "empty_list",
+    "path": "person[34].name",
+    "person_data": {
+      "bdrc_id": "P2LS533",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "e4.json",
+    "bdrc_id": "P2LS533",
+    "empty_type": "empty_list",
+    "path": "person[34].alt_names",
+    "person_data": {
+      "bdrc_id": "P2LS533",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "e4.json",
+    "bdrc_id": "P5965",
+    "empty_type": "empty_list",
+    "path": "person[69].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P5965",
+      "name": [
+        {
+          "bo": "གཅན་ཚ་བློ་བཟང་བསྟན་འཛིན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "གཅན་ཚ་བློ་བཟང་བསྟན་འཛིན།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་བསྟན་འཛིན།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "e4.json",
+    "bdrc_id": "P6173",
+    "empty_type": "empty_list",
+    "path": "person[76].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P6173",
+      "name": [
+        {
+          "bo": "གནས་གསར་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཀརྨ་བཀྲ་ཤིས་ཆོས་འཕེལ་བློ་གྲོས་རྒྱ་མཚོའི་སྒྲ་དབྱངས།"
+          }
+        ],
+        [
+          {
+            "bo": "བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "bo": "གནས་གསར་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཀརྨ་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "e4.json",
+    "bdrc_id": "P6173",
+    "empty_type": "empty_list",
+    "path": "person[76].alt_names[3]",
+    "person_data": {
+      "bdrc_id": "P6173",
+      "name": [
+        {
+          "bo": "གནས་གསར་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཀརྨ་བཀྲ་ཤིས་ཆོས་འཕེལ་བློ་གྲོས་རྒྱ་མཚོའི་སྒྲ་དབྱངས།"
+          }
+        ],
+        [
+          {
+            "bo": "བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "bo": "གནས་གསར་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཀརྨ་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "e4.json",
+    "bdrc_id": "P6173",
+    "empty_type": "empty_list",
+    "path": "person[76].alt_names[4]",
+    "person_data": {
+      "bdrc_id": "P6173",
+      "name": [
+        {
+          "bo": "གནས་གསར་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཀརྨ་བཀྲ་ཤིས་ཆོས་འཕེལ་བློ་གྲོས་རྒྱ་མཚོའི་སྒྲ་དབྱངས།"
+          }
+        ],
+        [
+          {
+            "bo": "བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "bo": "གནས་གསར་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཀརྨ་བཀྲ་ཤིས་ཆོས་འཕེལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "bd.json",
+    "bdrc_id": "P3PD2",
+    "empty_type": "empty_list",
+    "path": "person[0].name",
+    "person_data": {
+      "bdrc_id": "P3PD2",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "bd.json",
+    "bdrc_id": "P3PD2",
+    "empty_type": "empty_list",
+    "path": "person[0].alt_names",
+    "person_data": {
+      "bdrc_id": "P3PD2",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "bd.json",
+    "bdrc_id": "P229",
+    "empty_type": "empty_list",
+    "path": "person[29].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P229",
+      "name": [
+        {
+          "bo": "ཡོངས་འཛིན་པཎཌི་ཏ་བློ་བཟང་དཔལ་ལྡན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བློ་བཟང་དཔལ་ལྡན།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ཡོངས་འཛིན་པཎཌི་ཏ་བློ་བཟང་དཔལ་ལྡན།"
+          }
+        ],
+        [
+          {
+            "bo": "པདྨ་བཀྲ་ཤིས།"
+          }
+        ],
+        [
+          {
+            "bo": "སྒེའུ་སྟེང་བློ་བཟང་དཔལ་ལྡན།"
+          }
+        ],
+        [
+          {
+            "bo": "སྒིས་སྟེང་བློ་བཟང་དཔལ་ལྡན།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "bd.json",
+    "bdrc_id": "P9514",
+    "empty_type": "empty_list",
+    "path": "person[43].alt_names[5]",
+    "person_data": {
+      "bdrc_id": "P9514",
+      "name": [
+        {
+          "bo": "རྫོགས་ཆེན་མཁན་པོ་པདྨ་ཚེ་དབང་ལྷུན་གྲུབ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "མཁན་པོ་པད་ཚེ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཨ་རིག་མཁན་ཆེན་པདྨ་ཚེ་དབང་།"
+          }
+        ],
+        [
+          {
+            "bo": "པདྨ་ཚེ་དབང་ལྷུན་གྲུབ།"
+          }
+        ],
+        [
+          {
+            "bo": "པད་ཚེ།"
+          }
+        ],
+        [
+          {
+            "bo": "དགེ་ལེགས་ཆོས་འཕེལ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "རྫོགས་ཆེན་མཁན་པོ་པདྨ་ཚེ་དབང་ལྷུན་གྲུབ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "bd.json",
+    "bdrc_id": "P1GS9121",
+    "empty_type": "empty_list",
+    "path": "person[65].name",
+    "person_data": {
+      "bdrc_id": "P1GS9121",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "bd.json",
+    "bdrc_id": "P1GS9121",
+    "empty_type": "empty_list",
+    "path": "person[65].alt_names",
+    "person_data": {
+      "bdrc_id": "P1GS9121",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "9e.json",
+    "bdrc_id": "P1KG14940",
+    "empty_type": "empty_list",
+    "path": "person[3].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P1KG14940",
+      "name": [
+        {
+          "bo": "ཚུལ་ཁྲིམས་འོད་ཟེར།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "གསེར་རྟའི་ཚུལ་ཁྲིམས་འོད་ཟེར།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ཚུལ་ཁྲིམས་འོད་ཟེར།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "9e.json",
+    "bdrc_id": "P0AT0248",
+    "empty_type": "empty_list",
+    "path": "person[30].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0248",
+      "name": [
+        {
+          "sa-x-iast": "Govindabhagavatpāda"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "fe.json",
+    "bdrc_id": "P2075",
+    "empty_type": "empty_list",
+    "path": "person[67].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P2075",
+      "name": [
+        {
+          "bo": "དོར་ཞི ༠༦་གདོང་དྲུག་སྙེམས་པའི་བློ་གྲོས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "དོར་ཞི ༠༦་གདོང་དྲུག་སྙེམས་པའི་བློ་གྲོས།"
+          }
+        ],
+        [
+          {
+            "bo": "གདོང་དྲུག་སྙེམས་པའི་བློ་གྲོས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "བློ་བཟང་ཐུབ་བསྟན་ཆོས་འཕེལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "88.json",
+    "bdrc_id": "P2955",
+    "empty_type": "empty_list",
+    "path": "person[1].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P2955",
+      "name": [
+        {
+          "bo": "དྲུང་ཡིག་ཚངས་སྲས་བཞད་པའི་བློ་གྲོས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "འཇིགས་མེད་དཔལ་འབྱོར།"
+          }
+        ],
+        [
+          {
+            "bo": "དྲུང་ཡིག་ཚངས་སྲས་བཞད་པའི་བློ་གྲོས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "དྲུང་ཡིག་ཚངས་སྲས་བཞད་པའི་བློ་གྲོས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "c9.json",
+    "bdrc_id": "P0AT0252",
+    "empty_type": "empty_list",
+    "path": "person[30].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0252",
+      "name": [
+        {
+          "sa-x-iast": "Śālinātha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "c9.json",
+    "bdrc_id": "P8258",
+    "empty_type": "empty_list",
+    "path": "person[42].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P8258",
+      "name": [
+        {
+          "bo": "ཧོ་བཙུན་བསྟན་འཛིན་བློ་གྲོས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཧོ་བཙུན་བསྟན་འཛིན་བློ་གྲོས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "བསྟན་འཛིན་བློ་གྲོས་རྒྱ་མཚོ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "30.json",
+    "bdrc_id": "P0AT0124",
+    "empty_type": "empty_list",
+    "path": "person[89].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0124",
+      "name": [
+        {
+          "sa-x-iast": "Somānanda"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "c8.json",
+    "bdrc_id": "P0AT0262",
+    "empty_type": "empty_list",
+    "path": "person[14].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0262",
+      "name": [
+        {
+          "sa-x-iast": "Candrakāntābhikṣuṇī"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "c8.json",
+    "bdrc_id": "P0AT0313",
+    "empty_type": "empty_list",
+    "path": "person[75].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0313",
+      "name": [
+        {
+          "sa-x-iast": "Dharmamitra III"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "cc.json",
+    "bdrc_id": "P0AT0227",
+    "empty_type": "empty_list",
+    "path": "person[42].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0227",
+      "name": [
+        {
+          "sa-x-iast": "Vādivāgīśvara"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "cc.json",
+    "bdrc_id": "P0AT0133",
+    "empty_type": "empty_list",
+    "path": "person[56].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0133",
+      "name": [
+        {
+          "sa-x-iast": "Keśava Kāśmīrī"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "cc.json",
+    "bdrc_id": "P0AT0329",
+    "empty_type": "empty_list",
+    "path": "person[66].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0329",
+      "name": [
+        {
+          "sa-x-iast": "Līlāvajra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "89.json",
+    "bdrc_id": "P6087",
+    "empty_type": "empty_list",
+    "path": "person[40].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P6087",
+      "name": [
+        {
+          "bo": "བཤེས་གཉེན་དབང་དབང་དགེ་ལེགས་ལྷུན་གྲུབ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "བཤེས་གཉེན་དབང་དབང་དགེ་ལེགས་ལྷུན་གྲུབ།"
+          }
+        ],
+        [
+          {
+            "bo": "ངག་དབང་དགེ་ལེགས་ལྷུན་གྲུབ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "70.json",
+    "bdrc_id": "P1646",
+    "empty_type": "empty_list",
+    "path": "person[36].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P1646",
+      "name": [
+        {
+          "bo": "ཚེ་ཏན་ཞབས་དྲུང ༠༦་འཇིགས་མེད་རིགས་པའི་བློ་གྲོས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཚེ་ཏན་ཞབས་དྲུང ༠༦་འཇིགས་མེད་རིགས་པའི་བློ་གྲོས།"
+          }
+        ],
+        [
+          {
+            "bo": "ཚེ་ཏན་ཞབས་དྲུང་འཇིགས་མེད་རིག་པའི་བློ་གྲོས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "འཇིགས་མེད་རིག་པའི་བློ་གྲོས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "འཇིགས་མེད་རིགས་པའི་བློ་གྲོས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "70.json",
+    "bdrc_id": "P1646",
+    "empty_type": "empty_list",
+    "path": "person[36].alt_names[4]",
+    "person_data": {
+      "bdrc_id": "P1646",
+      "name": [
+        {
+          "bo": "ཚེ་ཏན་ཞབས་དྲུང ༠༦་འཇིགས་མེད་རིགས་པའི་བློ་གྲོས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཚེ་ཏན་ཞབས་དྲུང ༠༦་འཇིགས་མེད་རིགས་པའི་བློ་གྲོས།"
+          }
+        ],
+        [
+          {
+            "bo": "ཚེ་ཏན་ཞབས་དྲུང་འཇིགས་མེད་རིག་པའི་བློ་གྲོས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "འཇིགས་མེད་རིག་པའི་བློ་གྲོས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "འཇིགས་མེད་རིགས་པའི་བློ་གྲོས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "27.json",
+    "bdrc_id": "P0AT0114",
+    "empty_type": "empty_list",
+    "path": "person[73].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0114",
+      "name": [
+        {
+          "sa-x-iast": "Śākyabuddhi"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "27.json",
+    "bdrc_id": "P7574",
+    "empty_type": "empty_list",
+    "path": "person[81].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P7574",
+      "name": [
+        {
+          "bo": "མཁྱེན་བརྩེ་གཙུག་ལག་སྨྲ་བའི་ཉི་མ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "མཁྱེན་བརྩེ་གཙུག་ལག་སྨྲ་བའི་ཉི་མ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "འཇམ་དབྱངས་མཁྱེན་བརྩེ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "27.json",
+    "bdrc_id": "P7574",
+    "empty_type": "empty_list",
+    "path": "person[81].alt_names[3]",
+    "person_data": {
+      "bdrc_id": "P7574",
+      "name": [
+        {
+          "bo": "མཁྱེན་བརྩེ་གཙུག་ལག་སྨྲ་བའི་ཉི་མ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "མཁྱེན་བརྩེ་གཙུག་ལག་སྨྲ་བའི་ཉི་མ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "འཇམ་དབྱངས་མཁྱེན་བརྩེ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "e5.json",
+    "bdrc_id": "P0AT0349",
+    "empty_type": "empty_list",
+    "path": "person[68].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0349",
+      "name": [
+        {
+          "sa-x-iast": "Caryāvratipāda"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "a4.json",
+    "bdrc_id": "P0AT0255",
+    "empty_type": "empty_list",
+    "path": "person[4].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0255",
+      "name": [
+        {
+          "sa-x-iast": "Yaśodhara"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "1f.json",
+    "bdrc_id": "P0AT0233",
+    "empty_type": "empty_list",
+    "path": "person[30].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0233",
+      "name": [
+        {
+          "sa-x-iast": "Narahari"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "d3.json",
+    "bdrc_id": "P4CZ15631",
+    "empty_type": "empty_list",
+    "path": "person[21].name",
+    "person_data": {
+      "bdrc_id": "P4CZ15631",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "d3.json",
+    "bdrc_id": "P4CZ15631",
+    "empty_type": "empty_list",
+    "path": "person[21].alt_names",
+    "person_data": {
+      "bdrc_id": "P4CZ15631",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "4a.json",
+    "bdrc_id": "P7526",
+    "empty_type": "empty_list",
+    "path": "person[42].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P7526",
+      "name": [
+        {
+          "bo": "བུར་ཡད་སྐལ་བཟང་བསྟན་འཛིན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བུར་ཡད་སྐལ་བཟང་བསྟན་འཛིན།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "སྐལ་བཟང་བསྟན་འཛིན།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "3f.json",
+    "bdrc_id": "P0AT0115",
+    "empty_type": "empty_list",
+    "path": "person[43].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0115",
+      "name": [
+        {
+          "sa-x-iast": "Prabhācandra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "c4.json",
+    "bdrc_id": "P3CN26994",
+    "empty_type": "empty_list",
+    "path": "person[45].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P3CN26994",
+      "name": [
+        {
+          "bo": "རབ་བརྟན་བསོད་ནམས་དོན་འགྲུབ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "རབ་བརྟན་བསོད་ནམས་དོན་འགྲུབ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "6a.json",
+    "bdrc_id": "P0AT0263",
+    "empty_type": "empty_list",
+    "path": "person[3].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0263",
+      "name": [
+        {
+          "sa-x-iast": "Carapatipāda"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "85.json",
+    "bdrc_id": "P0AT0325",
+    "empty_type": "empty_list",
+    "path": "person[80].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0325",
+      "name": [
+        {
+          "sa-x-iast": "Vasumitra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "f3.json",
+    "bdrc_id": "P0AT0166",
+    "empty_type": "empty_list",
+    "path": "person[0].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0166",
+      "name": [
+        {
+          "sa-x-iast": "Bilhaṇa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "93.json",
+    "bdrc_id": "P00KG08369",
+    "empty_type": "empty_list",
+    "path": "person[10].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P00KG08369",
+      "name": [
+        {
+          "bo": "རབ་བརྟན་དགེ་ལེགས་ཕུན་ཚོགས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "རབ་བརྟན་དགེ་ལེགས་ཕུན་ཚོགས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "དགེ་ལེགས་ཕུན་ཚོགས།"
+          }
+        ],
+        [
+          {
+            "bo": "ཉི་མ་བློ་གསལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "ac.json",
+    "bdrc_id": "P4989",
+    "empty_type": "empty_list",
+    "path": "person[4].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P4989",
+      "name": [
+        {
+          "bo": "གཙོས་བསྟན་པ་རྒྱལ་མཚན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བསྟན་པ་རྒྱལ་མཚན།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "གཙོས་བསྟན་པ་རྒྱལ་མཚན།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "ac.json",
+    "bdrc_id": "P0AT0193",
+    "empty_type": "empty_list",
+    "path": "person[6].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0193",
+      "name": [
+        {
+          "sa-x-iast": "Kuḍaka"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ac.json",
+    "bdrc_id": "P0AT0213",
+    "empty_type": "empty_list",
+    "path": "person[42].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0213",
+      "name": [
+        {
+          "sa-x-iast": "Vasugupta"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ac.json",
+    "bdrc_id": "P1622",
+    "empty_type": "empty_list",
+    "path": "person[70].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P1622",
+      "name": [
+        {
+          "bo": "ལྕགས་རྭ ༠༦་ངག་དབང་འཕྲིན་ལས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ངག་དབང་འཕྲིན་ལས་དཔལ་བཟང,་ལྕགས་རྭ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ངག་དབང་འཕྲིན་ལས།"
+          }
+        ],
+        [
+          {
+            "bo": "ལྕགས་རྭ ༠༦་ངག་དབང་འཕྲིན་ལས།"
+          }
+        ],
+        [
+          {
+            "bo": "ལྕང་ར་ངག་དབང་འཕྲིན་ལས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "a8.json",
+    "bdrc_id": "P0AT0184",
+    "empty_type": "empty_list",
+    "path": "person[9].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0184",
+      "name": [
+        {
+          "sa-x-iast": "Somadeva"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "46.json",
+    "bdrc_id": "P0AT0254",
+    "empty_type": "empty_list",
+    "path": "person[9].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0254",
+      "name": [
+        {
+          "sa-x-iast": "Vāgbhaṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "c7.json",
+    "bdrc_id": "P0AT0247",
+    "empty_type": "empty_list",
+    "path": "person[50].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0247",
+      "name": [
+        {
+          "sa-x-iast": "Ḍhuṇḍhukanātha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "86.json",
+    "bdrc_id": "P1929",
+    "empty_type": "empty_list",
+    "path": "person[20].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P1929",
+      "name": [
+        {
+          "bo": "ཤར་ཆེན་ངག་དབང་ཚུལ་ཁྲིམས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "དབྱངས་ཅན་ངག་གི་དབང་ཕྱུག"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ཤར་ཆེན་ངག་དབང་ཚུལ་ཁྲིམས།"
+          }
+        ],
+        [
+          {
+            "bo": "ངག་དབང་ཚུལ་ཁྲིམས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "86.json",
+    "bdrc_id": "P0AT0177",
+    "empty_type": "empty_list",
+    "path": "person[39].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0177",
+      "name": [
+        {
+          "sa-x-iast": "Uddaṇḍa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "86.json",
+    "bdrc_id": "P4CZ15106",
+    "empty_type": "empty_list",
+    "path": "person[59].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P4CZ15106",
+      "name": [
+        {
+          "bo": "འཇམ་དཔལ་མིའི་དབང་པོ་གྲགས་པ།"
+        },
+        {
+          "sa-x-iast": "*Narendrakīrti"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "རྒྱལ་པོ་རིགས་ལྡན།"
+          }
+        ],
+        [
+          {
+            "bo": "འཇམ་དཔལ་མིའི་དབང་པོ་གྲགས་པ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "རིགས་ལྡན་གྲགས་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "འཇམ་དབྱངས་མི་བདག་གྲགས་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "མིའི་དབང་པོ་གྲགས་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "འཇམ་པའི་དབྱངས་མིའི་དབང་པོ་གྲགས་པ།"
+          }
+        ],
+        [
+          {
+            "sa-x-iast": "*Mañjughoṣanarendrakīrti"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "f0.json",
+    "bdrc_id": "P10078",
+    "empty_type": "empty_list",
+    "path": "person[66].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P10078",
+      "name": [
+        {
+          "bo": "ཀུན་དགའ་དཔལ་ལྡན་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "ཀུན་དགའ་དཔལ་ལྡན་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "f0.json",
+    "bdrc_id": "P1KG109102",
+    "empty_type": "empty_list",
+    "path": "person[78].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P1KG109102",
+      "name": [
+        {
+          "bo": "ལེགས་བཤད་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ལེགས་བཤད་རྒྱ་མཚོ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "90.json",
+    "bdrc_id": "P0AT0176",
+    "empty_type": "empty_list",
+    "path": "person[39].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0176",
+      "name": [
+        {
+          "sa-x-iast": "Subandhu"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "90.json",
+    "bdrc_id": "P0AT0289",
+    "empty_type": "empty_list",
+    "path": "person[70].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0289",
+      "name": [
+        {
+          "sa-x-iast": "Vimalamitra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "90.json",
+    "bdrc_id": "P0AT0352",
+    "empty_type": "empty_list",
+    "path": "person[88].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0352",
+      "name": [
+        {
+          "sa-x-iast": "Dharmatāśīla"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "2c.json",
+    "bdrc_id": "P0AT0274",
+    "empty_type": "empty_list",
+    "path": "person[19].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0274",
+      "name": [
+        {
+          "sa-x-iast": "Sāramati"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "2c.json",
+    "bdrc_id": "P0AT0155",
+    "empty_type": "empty_list",
+    "path": "person[67].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0155",
+      "name": [
+        {
+          "sa-x-iast": "Sulhaṇa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "28.json",
+    "bdrc_id": "P0AT0170",
+    "empty_type": "empty_list",
+    "path": "person[2].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0170",
+      "name": [
+        {
+          "sa-x-iast": "Laṅkeśvara"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "28.json",
+    "bdrc_id": "P8681",
+    "empty_type": "empty_list",
+    "path": "person[66].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P8681",
+      "name": [
+        {
+          "bo": "སྐལ་བཟང་རྣམ་འདྲེན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "སྐལ་བཟང་རྣམ་འདྲེན།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ཨ་བུ་ན་ན།"
+          }
+        ],
+        [
+          {
+            "bo": "གཙང་རིགས་སྐལ་བཟང་རྣམ་འདྲེན།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་འཇིགས་མེད་དཔལ་འབྱོར།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "28.json",
+    "bdrc_id": "P0AT0309",
+    "empty_type": "empty_list",
+    "path": "person[75].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0309",
+      "name": [
+        {
+          "sa-x-iast": "Candrakīrti III"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ea.json",
+    "bdrc_id": "P1457",
+    "empty_type": "empty_list",
+    "path": "person[1].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1457",
+      "name": [
+        {
+          "bo": "དཔལ་ཁང་ལོ་ཙཱ་བ་ངག་དབང་ཆོས་ཀྱི་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "ཆོས་ཀྱི་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "དཔལ་ཁང་ཆོས་མཛད་ངག་དབང་ཆོས་ཀྱི་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཀརྨ་འཕྲིན་ལས་གཉིས་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "ངག་དབང་ཆོས་ཀྱི་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "དཔལ་ཁང་ལོ་ཙཱ་བ་ངག་དབང་ཆོས་ཀྱི་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཀརྨ་འཕྲིན་ལས་ཕྱོགས་ལས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ངག་དབང་ཆོས་རྒྱལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "ea.json",
+    "bdrc_id": "P0AT0116",
+    "empty_type": "empty_list",
+    "path": "person[36].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0116",
+      "name": [
+        {
+          "sa-x-iast": "Gauḍapāda"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "53.json",
+    "bdrc_id": "P0AT0358",
+    "empty_type": "empty_list",
+    "path": "person[39].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0358",
+      "name": [
+        {
+          "sa-x-iast": "Dānadāsa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "04.json",
+    "bdrc_id": "P0AT0161",
+    "empty_type": "empty_list",
+    "path": "person[34].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0161",
+      "name": [
+        {
+          "sa-x-iast": "Appayadīkṣita"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "04.json",
+    "bdrc_id": "P1PD103193",
+    "empty_type": "empty_list",
+    "path": "person[35].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P1PD103193",
+      "name": [
+        {
+          "bo": "བདེ་ལེགས་རབ་རྒྱས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ངག་དབང་བདེ་ལེགས་རབ་རྒྱས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "བདེ་ལེགས་རབ་རྒྱས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "8a.json",
+    "bdrc_id": "P0AT0225",
+    "empty_type": "empty_list",
+    "path": "person[18].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0225",
+      "name": [
+        {
+          "sa-x-iast": "Praśastapāda"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "8a.json",
+    "bdrc_id": "P0AT0125",
+    "empty_type": "empty_list",
+    "path": "person[51].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0125",
+      "name": [
+        {
+          "sa-x-iast": "Śrīkaṇṭha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "8a.json",
+    "bdrc_id": "P1PD53747",
+    "empty_type": "empty_list",
+    "path": "person[70].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1PD53747",
+      "name": [
+        {
+          "bo": "བཤད་སྒྲུབ་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "བཤད་སྒྲུབ་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "24.json",
+    "bdrc_id": "P6308",
+    "empty_type": "empty_list",
+    "path": "person[53].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P6308",
+      "name": [
+        {
+          "bo": "རྩེ་གཞུང་པ་ཡ་མ་ཐར།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཡ་མ་ཐར།"
+          }
+        ],
+        [
+          {
+            "bo": "རྩེ་གཞུང་པ་ཡ་མ་ཐར།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "bf.json",
+    "bdrc_id": "P0AT0238",
+    "empty_type": "empty_list",
+    "path": "person[8].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0238",
+      "name": [
+        {
+          "sa-x-iast": "Mitramiśra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "08.json",
+    "bdrc_id": "P1LS5644",
+    "empty_type": "empty_list",
+    "path": "person[17].name",
+    "person_data": {
+      "bdrc_id": "P1LS5644",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "08.json",
+    "bdrc_id": "P1LS5644",
+    "empty_type": "empty_list",
+    "path": "person[17].alt_names",
+    "person_data": {
+      "bdrc_id": "P1LS5644",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "08.json",
+    "bdrc_id": "P0AT0231",
+    "empty_type": "empty_list",
+    "path": "person[53].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0231",
+      "name": [
+        {
+          "sa-x-iast": "Madhusūdana Sarasvatī"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0c.json",
+    "bdrc_id": "P7517",
+    "empty_type": "empty_list",
+    "path": "person[1].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P7517",
+      "name": [
+        {
+          "bo": "མཁན་ཆེན་བསྟན་པ་རབ་རྒྱས།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "མཁན་ཆེན་བསྟན་པ་རབ་རྒྱས།"
+          }
+        ],
+        [
+          {
+            "bo": "བཀྲ་ཤིས་བསྟན་པ་རབ་རྒྱས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "1e.json",
+    "bdrc_id": "P0AT0135",
+    "empty_type": "empty_list",
+    "path": "person[48].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0135",
+      "name": [
+        {
+          "sa-x-iast": "Rūpa Gosvāmī"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "d0.json",
+    "bdrc_id": "P234",
+    "empty_type": "empty_list",
+    "path": "person[16].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P234",
+      "name": [
+        {
+          "bo": "ཨ་ལག་ཤ་མཁན་སྤྲུལ ༠༥་ངོ་མཚར་གཞན་ཕན་ཕུལ་བྱུང་སངས་རྒྱས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ངོ་མཚར་གཞན་ཕན་ཕུལ་བྱུང་སངས་རྒྱས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཨ་ལག་ཤ་མཁན་སྤྲུལ ༠༥་ངོ་མཚར་གཞན་ཕན་ཕུལ་བྱུང་སངས་རྒྱས་རྒྱ་མཚོ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "d0.json",
+    "bdrc_id": "P4144",
+    "empty_type": "empty_list",
+    "path": "person[57].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P4144",
+      "name": [
+        {
+          "bo": "ལྷ་བཙུན་ངོ་མཚར་གཞན་ཕན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ངོ་མཚར་གཞན་ཕན་ཕུལ་བྱུང་སངས་རྒྱས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "སངས་རྒྱས་རྒྱ་མཚོ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ངོ་མཚར་གཞན་ཕན།"
+          }
+        ],
+        [
+          {
+            "bo": "ཨ་ལག་ཤ་མཁན་སྤྲུལ ༠༥"
+          }
+        ],
+        [
+          {
+            "bo": "ལྷ་བཙུན་ངོ་མཚར་གཞན་ཕན།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "d0.json",
+    "bdrc_id": "P1PD96738",
+    "empty_type": "empty_list",
+    "path": "person[83].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1PD96738",
+      "name": [
+        {
+          "bo": "ཤེས་རབ་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "ཤེས་རབ་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "4b.json",
+    "bdrc_id": "P0AT0258",
+    "empty_type": "empty_list",
+    "path": "person[16].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0258",
+      "name": [
+        {
+          "sa-x-iast": "Varāhamihira"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "4b.json",
+    "bdrc_id": "P0AT0130",
+    "empty_type": "empty_list",
+    "path": "person[18].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0130",
+      "name": [
+        {
+          "sa-x-iast": "Gopāla Bhaṭṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "4c.json",
+    "bdrc_id": "P526",
+    "empty_type": "empty_list",
+    "path": "person[28].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P526",
+      "name": [
+        {
+          "bo": "མཚམས་བྲག་བླ་མ་ངག་དབང་འབྲུག་པ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "ངག་དབང་འབྲུག་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "མཚམས་བྲག་བླ་མ་ངག་དབང་འབྲུག་པ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "48.json",
+    "bdrc_id": "P0AT0179",
+    "empty_type": "empty_list",
+    "path": "person[43].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0179",
+      "name": [
+        {
+          "sa-x-iast": "Bhaṭṭanārāyaṇa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0b.json",
+    "bdrc_id": "P0AT0265",
+    "empty_type": "empty_list",
+    "path": "person[41].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0265",
+      "name": [
+        {
+          "sa-x-iast": "Avadhūtasiddha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "e7.json",
+    "bdrc_id": "P0AT0331",
+    "empty_type": "empty_list",
+    "path": "person[24].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0331",
+      "name": [
+        {
+          "sa-x-iast": "Mañjuśrī"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "e7.json",
+    "bdrc_id": "P5956",
+    "empty_type": "empty_list",
+    "path": "person[44].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P5956",
+      "name": [
+        {
+          "bo": "བློ་གྲོས་རྒྱལ་མཚན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "བློ་གྲོས་རྒྱལ་མཚན།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "ff.json",
+    "bdrc_id": "P3AG28",
+    "empty_type": "empty_list",
+    "path": "person[75].name",
+    "person_data": {
+      "bdrc_id": "P3AG28",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "ff.json",
+    "bdrc_id": "P3AG28",
+    "empty_type": "empty_list",
+    "path": "person[75].alt_names",
+    "person_data": {
+      "bdrc_id": "P3AG28",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "64.json",
+    "bdrc_id": "P0AT0122",
+    "empty_type": "empty_list",
+    "path": "person[49].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0122",
+      "name": [
+        {
+          "sa-x-iast": "Puruṣottamadeva"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "33.json",
+    "bdrc_id": "P0AT0260",
+    "empty_type": "empty_list",
+    "path": "person[65].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0260",
+      "name": [
+        {
+          "sa-x-iast": "Lagadha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "44.json",
+    "bdrc_id": "P0AT0143",
+    "empty_type": "empty_list",
+    "path": "person[52].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0143",
+      "name": [
+        {
+          "sa-x-iast": "Jagannātha Paṇḍitarāja"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "44.json",
+    "bdrc_id": "P0AT0217",
+    "empty_type": "empty_list",
+    "path": "person[75].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0217",
+      "name": [
+        {
+          "sa-x-iast": "Vātūlanātha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "df.json",
+    "bdrc_id": "P736",
+    "empty_type": "empty_list",
+    "path": "person[2].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P736",
+      "name": [
+        {
+          "bo": "བདུད་འཇོམས་འཇིགས་བྲལ་ཡེ་ཤེས་རྡོ་རྗེ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "བདུད་འཇོམས་འཇིགས་བྲལ་ཡེ་ཤེས་རྡོ་རྗེ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཀུན་བཟང་ཆེ་མཆོག་ཡོན་ཏན་འདུས་པ་རྩལ།"
+          }
+        ],
+        [
+          {
+            "bo": "འཇིགས་བྲལ་ཡེ་ཤེས་རྡོ་རྗེ།"
+          }
+        ],
+        [
+          {
+            "bo": "གཏེར་ཆེན་འགྲོ་འདུལ་གླིང་པ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "13.json",
+    "bdrc_id": "P3CN26639",
+    "empty_type": "empty_list",
+    "path": "person[75].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P3CN26639",
+      "name": [
+        {
+          "bo": "ངག་དབང་བཟང་པོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ངག་དབང་བཟང་པོ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "བསམ་ཡས་པ་ངག་དབང་བཟང་པོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "29.json",
+    "bdrc_id": "P10639",
+    "empty_type": "empty_list",
+    "path": "person[50].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P10639",
+      "name": [
+        {
+          "bo": "རེབ་གོང་བ་འཇམ་དབྱངས་ཆོས་ཀྱི་བློ་གྲོས།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "རེབ་གོང་བ་འཇམ་དབྱངས་ཆོས་ཀྱི་བློ་གྲོས།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "འཇམ་དབྱངས་ཆོས་ཀྱི་བློ་གྲོས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "29.json",
+    "bdrc_id": "P4779",
+    "empty_type": "empty_list",
+    "path": "person[52].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P4779",
+      "name": [
+        {
+          "bo": "ཁྲོ་རུ་མཁན་པོ་ཚེ་རྣམ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཁྲོ་རུ་ཚེ་རྣམ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ཁྲོ་རུ་མཁན་པོ་ཚེ་རྣམ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཚེ་རྣམ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "2b.json",
+    "bdrc_id": "P0AT0204",
+    "empty_type": "empty_list",
+    "path": "person[18].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0204",
+      "name": [
+        {
+          "sa-x-iast": "Gaṅgeśa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "2b.json",
+    "bdrc_id": "P1KG11883",
+    "empty_type": "empty_list",
+    "path": "person[35].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P1KG11883",
+      "name": [
+        {
+          "bo": "དགེ་ལེགས་ཐུབ་བསྟན།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ལོ་པོ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "དགེ་ལེགས་ཐུབ་བསྟན།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "7e.json",
+    "bdrc_id": "P6896",
+    "empty_type": "empty_list",
+    "path": "person[32].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P6896",
+      "name": [
+        {
+          "bo": "ཟུར་མང་མཁན་པོ་ཚོགས་གཉིས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཀརྨ་ཚོགས་གཉིས་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཟུར་མང་མཁན་པོ་ཚོགས་གཉིས་རྒྱ་མཚོ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ཚོགས་གཉིས་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "87.json",
+    "bdrc_id": "P0AT0244",
+    "empty_type": "empty_list",
+    "path": "person[35].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0244",
+      "name": [
+        {
+          "sa-x-iast": "Purūravas"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "6c.json",
+    "bdrc_id": "P3CN19592",
+    "empty_type": "empty_list",
+    "path": "person[77].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P3CN19592",
+      "name": [
+        {
+          "bo": "ནོར་བུ་དབང་རྒྱལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "མཁན་ཆེན་ནོར་བུ་དབང་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ནོར་བུ་དབང་རྒྱལ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "3d.json",
+    "bdrc_id": "P1KG4947",
+    "empty_type": "empty_list",
+    "path": "person[3].name",
+    "person_data": {
+      "bdrc_id": "P1KG4947",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "3d.json",
+    "bdrc_id": "P1KG4947",
+    "empty_type": "empty_list",
+    "path": "person[3].alt_names",
+    "person_data": {
+      "bdrc_id": "P1KG4947",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "3d.json",
+    "bdrc_id": "P0AT0164",
+    "empty_type": "empty_list",
+    "path": "person[75].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0164",
+      "name": [
+        {
+          "sa-x-iast": "Bhallaṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "cf.json",
+    "bdrc_id": "P0AT0152",
+    "empty_type": "empty_list",
+    "path": "person[69].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0152",
+      "name": [
+        {
+          "sa-x-iast": "Viśvanātha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "63.json",
+    "bdrc_id": "P0AT0174",
+    "empty_type": "empty_list",
+    "path": "person[41].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0174",
+      "name": [
+        {
+          "sa-x-iast": "Rāghavacaitanya"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "5b.json",
+    "bdrc_id": "P1277",
+    "empty_type": "empty_list",
+    "path": "person[17].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P1277",
+      "name": [
+        {
+          "bo": "དཀའ་བཅུ ༠༤་འཇམ་དབྱངས་ཕྱོགས་ལས་རྣམ་རྒྱལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "དཀའ་བཅུ ༠༤་འཇམ་དབྱངས་ཕྱོགས་ལས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "བདེ་ཐང་མཁན་ཆེན་ཚངས་སྲས་སྒེག་པའི་རྡོ་རྗེ།"
+          }
+        ],
+        [
+          {
+            "bo": "འཇམ་དབྱངས་ཕྱོགས་ལས་རྣམ་རྒྱལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "5b.json",
+    "bdrc_id": "P0AT0157",
+    "empty_type": "empty_list",
+    "path": "person[30].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0157",
+      "name": [
+        {
+          "sa-x-iast": "Abhinavagupta"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0e.json",
+    "bdrc_id": "P00KG09685",
+    "empty_type": "empty_list",
+    "path": "person[0].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P00KG09685",
+      "name": [
+        {
+          "bo": "བསོད་ནམས་བག་དྲོ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "བསོད་ནམས་བག་དྲོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "a1.json",
+    "bdrc_id": "P0AT0253",
+    "empty_type": "empty_list",
+    "path": "person[27].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0253",
+      "name": [
+        {
+          "sa-x-iast": "Suṣeṇa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "18.json",
+    "bdrc_id": "P0AT0183",
+    "empty_type": "empty_list",
+    "path": "person[27].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0183",
+      "name": [
+        {
+          "sa-x-iast": "Nārāyaṇa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "d6.json",
+    "bdrc_id": "P0AT0151",
+    "empty_type": "empty_list",
+    "path": "person[9].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0151",
+      "name": [
+        {
+          "sa-x-iast": "Viśveśvara Kavicandra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "4d.json",
+    "bdrc_id": "P1KG9630",
+    "empty_type": "empty_list",
+    "path": "person[43].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1KG9630",
+      "name": [
+        {
+          "bo": "འཚོ་བྱེད་ཤཱ་ས་དྷ་ར།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "འཚོ་བྱེད་ཤཱ་ས་དྷ་ར།"
+          }
+        ],
+        [
+          {
+            "bo": "འཚོ་བྱེད་བསྟན་འཛིན།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "6d.json",
+    "bdrc_id": "P0AT0315",
+    "empty_type": "empty_list",
+    "path": "person[61].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0315",
+      "name": [
+        {
+          "sa-x-iast": "Suvidyākaravarman"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "f6.json",
+    "bdrc_id": "P0AT0198",
+    "empty_type": "empty_list",
+    "path": "person[38].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0198",
+      "name": [
+        {
+          "sa-x-iast": "Sucaritamiśra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "f6.json",
+    "bdrc_id": "P0AT0132",
+    "empty_type": "empty_list",
+    "path": "person[77].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0132",
+      "name": [
+        {
+          "sa-x-iast": "Siddha Kṛṣṇadāsa Tātapāda"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "7b.json",
+    "bdrc_id": "P37",
+    "empty_type": "empty_list",
+    "path": "person[62].alt_names[13]",
+    "person_data": {
+      "bdrc_id": "P37",
+      "name": [
+        {
+          "bo": "ཏཱ་ལའི་བླ་མ ༠༥་ངག་དབང་བློ་བཟང་རྒྱ་མཚོ།"
+        },
+        {
+          "en": "Dalai Lama 05 Ngawang Lobzang Gyatso"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ངག་དབང་བློ་བཟང་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཟིལ་གནོན་བཞད་པ་རྩལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཏཱ་ལའི་བླ་མ་ངག་དབང་བློ་བཟང་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "འབྲས་སྤུངས་ཁྲི་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "གང་ཤར་རང་གྲོལ།"
+          }
+        ],
+        [
+          {
+            "en": "Dalai Lama 05 Ngawang Lobzang Gyatso"
+          }
+        ],
+        [
+          {
+            "en": "Dalai Lama 05"
+          }
+        ],
+        [
+          {
+            "bo": "འབྲས་སྤུངས་ཚོགས་ཆེན་ཁྲི་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "གོང་ས་ལྔ་པ་རིན་པོ་ཆེ།"
+          }
+        ],
+        [
+          {
+            "bo": "བྱང་སེམས་མྱུ་གུ་རྩལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཏཱ་ལའི་བླ་མ ༠༥"
+          }
+        ],
+        [
+          {
+            "bo": "ཏཱ་ལའི་བླ་མ ༠༥"
+          }
+        ],
+        [
+          {
+            "bo": "ནག་པོ་ཟིལ་གནོན་དྲག་པོ་རྩལ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "རྡོ་རྗེ་ཐོགས་མེད་རྩལ།"
+          }
+        ],
+        [
+          {
+            "bo": "རྒྱལ་དབང་ལྔ་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཟིལ་གནོན་དྲག་རྩལ་རྡོ་རྗེ།"
+          }
+        ],
+        [
+          {
+            "bo": "ལྔ་པ་རིན་པོ་ཆེ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཟ་ཧོར་སྔགས་སྨྱོན་ཟིལ་གནོན་བཞད་པ་རྩལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཏཱ་ལའི་བླ་མ ༠༥་ངག་དབང་བློ་བཟང་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཏཱ་ལའི་བླ་མ ༠༥་ངག་དབང་བློ་བཟང་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "2e.json",
+    "bdrc_id": "P7809",
+    "empty_type": "empty_list",
+    "path": "person[4].alt_names[6]",
+    "person_data": {
+      "bdrc_id": "P7809",
+      "name": [
+        {
+          "bo": "བློ་གླིང་དགེ་བཤེས་བློ་བཟང་ཚེ་རིང་།"
+        },
+        {
+          "sa-x-ndia": "su ma ti a yu She/"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "རྒྱ་རོང་དགེ་བཤེས་བློ་བཟང་ཚེ་རིང་།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་ཚེ་རིང་།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་གླིང་དགེ་བཤེས་བློ་བཟང་ཚེ་རིང་།"
+          }
+        ],
+        [
+          {
+            "bo": "རྒྱལ་རོང་དགེ་བཤེས་བློ་བཟང་ཚེ་རིང་།"
+          }
+        ],
+        [
+          {
+            "sa-x-ndia": "su ma ti a yu She/"
+          }
+        ],
+        [
+          {
+            "bo": "རྒྱལ་རོང་བློ་བཟང་ཚེ་རིང་།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "2e.json",
+    "bdrc_id": "P0AT0307",
+    "empty_type": "empty_list",
+    "path": "person[12].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0307",
+      "name": [
+        {
+          "sa-x-iast": "Jayasena II"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "2e.json",
+    "bdrc_id": "P0AT0119",
+    "empty_type": "empty_list",
+    "path": "person[57].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0119",
+      "name": [
+        {
+          "sa-x-iast": "Bhaṭṭa Nārāyaṇa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "b7.json",
+    "bdrc_id": "P4CZ15647",
+    "empty_type": "empty_list",
+    "path": "person[1].name",
+    "person_data": {
+      "bdrc_id": "P4CZ15647",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "b7.json",
+    "bdrc_id": "P4CZ15647",
+    "empty_type": "empty_list",
+    "path": "person[1].alt_names",
+    "person_data": {
+      "bdrc_id": "P4CZ15647",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "b7.json",
+    "bdrc_id": "P1PD76759",
+    "empty_type": "empty_list",
+    "path": "person[13].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1PD76759",
+      "name": [
+        {
+          "bo": "ཡོན་ཤུལ་སྨན་རྒན་དཀོན་མཆོག་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "ཡོན་འཕྲིན་སྨན་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཡོན་ཤུལ་སྨན་རྒན་དཀོན་མཆོག་རྒྱ་མཚོ།"
+          }
+        ],
+        [
+          {
+            "bo": "སྒོ་མང་ཡོན་ཤུལ་སྨན་རྒན།"
+          }
+        ],
+        [
+          {
+            "bo": "དཀོན་མཆོག་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "da.json",
+    "bdrc_id": "P166",
+    "empty_type": "empty_list",
+    "path": "person[13].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P166",
+      "name": [
+        {
+          "bo": "ཨ་ཀྱཱ་ཡོངས་འཛིན་བློ་བཟང་དོན་གྲུབ།"
+        },
+        {
+          "zh-Hans": "阿嘉经师洛桑顿珠"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "རྐ་ཕུག་བློ་བཟང་དོན་གྲུབ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཨ་ཀྱཱ་ཡོངས་འཛིན་བློ་བཟང་དོན་གྲུབ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "བྱ་ཁྱུང་མཁན་རབས ༤༩་བློ་བཟང་དོན་གྲུབ།"
+          }
+        ],
+        [
+          {
+            "zh-Hans": "阿嘉经师洛桑顿珠"
+          }
+        ],
+        [
+          {
+            "bo": "ཨ་ཀྱཱ་ཡོངས་འཛིན་དབྱངས་ཅན་དགའ་བའི་བློ་གྲོས།"
+          }
+        ],
+        [
+          {
+            "bo": "བྱ་ཁྱུང་མཁན་རབས ༤༩"
+          }
+        ],
+        [
+          {
+            "bo": "རྐ་ཕུག་གྲུབ་ཆེན་བློ་བཟང་དོན་གྲུབ།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་དོན་གྲུབ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "43.json",
+    "bdrc_id": "P0AT0186",
+    "empty_type": "empty_list",
+    "path": "person[72].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0186",
+      "name": [
+        {
+          "sa-x-iast": "Vallabhadeva"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "42.json",
+    "bdrc_id": "P0AT0327",
+    "empty_type": "empty_list",
+    "path": "person[13].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0327",
+      "name": [
+        {
+          "sa-x-iast": "Dharmatrāta (I)"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "15.json",
+    "bdrc_id": "P1KG795",
+    "empty_type": "empty_list",
+    "path": "person[32].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P1KG795",
+      "name": [
+        {
+          "bo": "བློ་བཟང་བསྟན་པའི་རྒྱལ་མཚན།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "མདོ་སྔགས་དགེ་ལེགས་བློ་བཟང་བསྟན་པའི་རྒྱལ་མཚན།"
+          }
+        ],
+        [
+          {
+            "bo": "བློ་བཟང་བསྟན་པའི་རྒྱལ་མཚན།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "15.json",
+    "bdrc_id": "P0AT0172",
+    "empty_type": "empty_list",
+    "path": "person[68].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0172",
+      "name": [
+        {
+          "sa-x-iast": "Nīlakaṇṭha Dīkṣita"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "54.json",
+    "bdrc_id": "P0AT0146",
+    "empty_type": "empty_list",
+    "path": "person[9].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0146",
+      "name": [
+        {
+          "sa-x-iast": "Rājaśekhara"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "54.json",
+    "bdrc_id": "P313",
+    "empty_type": "empty_list",
+    "path": "person[68].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P313",
+      "name": [
+        {
+          "bo": "ཁམས་སྤྲུལ་བསྟན་འཛིན་ཆོས་ཀྱི་ཉི་མ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཁམས་སྤྲུལ་བསྟན་འཛིན་ཆོས་ཀྱི་ཉི་མ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "ཁམས་སྤྲུལ ༠༤་ཆོས་ཀྱི་ཉི་མ།"
+          }
+        ],
+        [
+          {
+            "bo": "བསྟན་འཛིན་ཆོས་ཀྱི་ཉི་མ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "b6.json",
+    "bdrc_id": "P0AT0138",
+    "empty_type": "empty_list",
+    "path": "person[56].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0138",
+      "name": [
+        {
+          "sa-x-iast": "Rādhākṛṣṇadāsa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "b6.json",
+    "bdrc_id": "P0AT0144",
+    "empty_type": "empty_list",
+    "path": "person[71].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0144",
+      "name": [
+        {
+          "sa-x-iast": "Kuntaka"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "97.json",
+    "bdrc_id": "P4409",
+    "empty_type": "empty_list",
+    "path": "person[19].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P4409",
+      "name": [
+        {
+          "bo": "ཡེ་ཤེས་རྒྱ་མཚོ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "ཡེ་ཤེས་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "7c.json",
+    "bdrc_id": "P0AT0154",
+    "empty_type": "empty_list",
+    "path": "person[38].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0154",
+      "name": [
+        {
+          "sa-x-iast": "Kedārabhaṭṭa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "7c.json",
+    "bdrc_id": "P0AT0241",
+    "empty_type": "empty_list",
+    "path": "person[69].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0241",
+      "name": [
+        {
+          "sa-x-iast": "Jyotirīśvara Kaviśekhara"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "c0.json",
+    "bdrc_id": "P0AT0264",
+    "empty_type": "empty_list",
+    "path": "person[30].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0264",
+      "name": [
+        {
+          "sa-x-iast": "Maheśvara"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "3b.json",
+    "bdrc_id": "P6235",
+    "empty_type": "empty_list",
+    "path": "person[16].name",
+    "person_data": {
+      "bdrc_id": "P6235",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "3b.json",
+    "bdrc_id": "P6235",
+    "empty_type": "empty_list",
+    "path": "person[16].alt_names",
+    "person_data": {
+      "bdrc_id": "P6235",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "4e.json",
+    "bdrc_id": "P6620",
+    "empty_type": "empty_list",
+    "path": "person[67].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P6620",
+      "name": [
+        {
+          "bo": "ཁ་སྒང་བཀྲ་ཤིས་ཚེ་རིང་།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཁ་སྒང་བཀྲ་ཤིས་ཚེ་རིང་།"
+          }
+        ],
+        [
+          {
+            "bo": "བཀྲ་ཤིས་ཚེ་རིང་།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "d7.json",
+    "bdrc_id": "P2DB19542",
+    "empty_type": "empty_list",
+    "path": "person[64].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P2DB19542",
+      "name": [
+        {
+          "bo": "རྡོ་རྗེ་དགྲ་འདུལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "རྡོར་ལོ།"
+          }
+        ],
+        [],
+        [
+          {
+            "bo": "རྡོ་རྗེ་དགྲ་འདུལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཤཱཀྱ་རང་བྱུང་དགེ་ལེགས་ཡོན་ཏན་རྒྱ་མཚོ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "d7.json",
+    "bdrc_id": "P0AT0168",
+    "empty_type": "empty_list",
+    "path": "person[72].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0168",
+      "name": [
+        {
+          "sa-x-iast": "Govardhana"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "1b.json",
+    "bdrc_id": "P1KT9",
+    "empty_type": "empty_list",
+    "path": "person[11].name",
+    "person_data": {
+      "bdrc_id": "P1KT9",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "1b.json",
+    "bdrc_id": "P1KT9",
+    "empty_type": "empty_list",
+    "path": "person[11].alt_names",
+    "person_data": {
+      "bdrc_id": "P1KT9",
+      "name": [],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "1b.json",
+    "bdrc_id": "P0AT0178",
+    "empty_type": "empty_list",
+    "path": "person[33].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0178",
+      "name": [
+        {
+          "sa-x-iast": "Bhāsa"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "1b.json",
+    "bdrc_id": "P0AT0128",
+    "empty_type": "empty_list",
+    "path": "person[64].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0128",
+      "name": [
+        {
+          "sa-x-iast": "Dhyānacandra"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "19.json",
+    "bdrc_id": "P0AT0338",
+    "empty_type": "empty_list",
+    "path": "person[45].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0338",
+      "name": [
+        {
+          "sa-x-iast": "Padmaruci"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "0d.json",
+    "bdrc_id": "P3546",
+    "empty_type": "empty_list",
+    "path": "person[46].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P3546",
+      "name": [
+        {
+          "bo": "ཨ་མདོ་དགེ་བཤེས་འཇམ་དཔལ་རོལ་པའི་བློ་གྲོས།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "ཨ་མདོ་དགེ་བཤེས་འཇམ་དཔལ་རོལ་པའི་བློ་གྲོས།"
+          }
+        ],
+        [
+          {
+            "bo": "འཇམ་དཔལ་རོལ་པའི་བློ་གྲོས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "e1.json",
+    "bdrc_id": "P6248",
+    "empty_type": "empty_list",
+    "path": "person[36].alt_names[1]",
+    "person_data": {
+      "bdrc_id": "P6248",
+      "name": [
+        {
+          "bo": "ཤེས་རབ་ཆོས་འཕེལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཤེས་རབ་ཆོས་འཕེལ།"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "file": "e1.json",
+    "bdrc_id": "P0AT0294",
+    "empty_type": "empty_list",
+    "path": "person[69].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0294",
+      "name": [
+        {
+          "sa-x-iast": "Vīryasiṃha"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "58.json",
+    "bdrc_id": "P0AT0199",
+    "empty_type": "empty_list",
+    "path": "person[19].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0199",
+      "name": [
+        {
+          "sa-x-iast": "Mādhava"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "23.json",
+    "bdrc_id": "P0AT0156",
+    "empty_type": "empty_list",
+    "path": "person[24].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0156",
+      "name": [
+        {
+          "sa-x-iast": "Dhanañjaya"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "23.json",
+    "bdrc_id": "P8057",
+    "empty_type": "empty_list",
+    "path": "person[32].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P8057",
+      "name": [
+        {
+          "bo": "འབའ་དོན་གྲུབ་རྒྱལ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "དོན་གྲུབ་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "འབའ་དོན་གྲུབ་རྒྱལ།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "23.json",
+    "bdrc_id": "P0AT0261",
+    "empty_type": "empty_list",
+    "path": "person[61].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0261",
+      "name": [
+        {
+          "sa-x-iast": "Ghoṣaka"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "8f.json",
+    "bdrc_id": "P0AT0229",
+    "empty_type": "empty_list",
+    "path": "person[42].alt_names",
+    "person_data": {
+      "bdrc_id": "P0AT0229",
+      "name": [
+        {
+          "sa-x-iast": "Bhāskara"
+        }
+      ],
+      "alt_names": []
+    }
+  },
+  {
+    "file": "62.json",
+    "bdrc_id": "P558",
+    "empty_type": "empty_list",
+    "path": "person[60].alt_names[2]",
+    "person_data": {
+      "bdrc_id": "P558",
+      "name": [
+        {
+          "bo": "ཞེ་ཆེན་དབོན་སྤྲུལ་འགྱུར་མེད་མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཞེ་ཆེན་ལོ་ཙཱ་བ་མཐུ་སྟོབས།"
+          }
+        ],
+        [
+          {
+            "bo": "མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "bo": "ཞེ་ཆེན་པཎ་ཆེན་འགྱུར་མེད་མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "འགྱུར་མེད་མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཞེ་ཆེན་དབོན་སྤྲུལ་འགྱུར་མེད་མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "འགྱུར་མེད་བསྟན་འཛིན་འཕེལ་རྒྱས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "62.json",
+    "bdrc_id": "P558",
+    "empty_type": "empty_list",
+    "path": "person[60].alt_names[3]",
+    "person_data": {
+      "bdrc_id": "P558",
+      "name": [
+        {
+          "bo": "ཞེ་ཆེན་དབོན་སྤྲུལ་འགྱུར་མེད་མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+        }
+      ],
+      "alt_names": [
+        [
+          {
+            "bo": "ཞེ་ཆེན་ལོ་ཙཱ་བ་མཐུ་སྟོབས།"
+          }
+        ],
+        [
+          {
+            "bo": "མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "bo": "ཞེ་ཆེན་པཎ་ཆེན་འགྱུར་མེད་མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "འགྱུར་མེད་མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "ཞེ་ཆེན་དབོན་སྤྲུལ་འགྱུར་མེད་མཐུ་སྟོབས་རྣམ་རྒྱལ།"
+          }
+        ],
+        [
+          {
+            "bo": "འགྱུར་མེད་བསྟན་འཛིན་འཕེལ་རྒྱས།"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "file": "62.json",
+    "bdrc_id": "P00KG04017",
+    "empty_type": "empty_list",
+    "path": "person[68].alt_names[0]",
+    "person_data": {
+      "bdrc_id": "P00KG04017",
+      "name": [
+        {
+          "bo": "པདྨ་ལྷུན་གྲུབ་དབང་རྒྱལ།"
+        }
+      ],
+      "alt_names": [
+        [],
+        [
+          {
+            "bo": "བསམ་གཏན་མི་ཕམ་ཆོས་ཀྱི་བློ་གྲོས།"
+          }
+        ],
+        [
+          {
+            "bo": "འགྲོ་འདུལ་གླིང་པ,་གཏེར་སྟོན།"
+          }
+        ],
+        [
+          {
+            "bo": "ཨོ་རྒྱན་བཀྲ་ཤེས་རྒྱལ་མཚན།"
+          }
+        ],
+        [
+          {
+            "bo": "པདྨ་ཕྲིན་ལས་རྡོ་རྗེ།"
+          }
+        ],
+        [
+          {
+            "bo": "གཏེར་སྟོན་འགྲོ་འདུལ་གླིང་པ།"
+          }
+        ],
+        [
+          {
+            "bo": "པདྨ་ལྷུན་གྲུབ་དབང་རྒྱལ།"
+          }
+        ]
+      ]
+    }
+  }
+]
