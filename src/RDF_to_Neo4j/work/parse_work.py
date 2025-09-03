@@ -87,7 +87,7 @@ class ParseWork:
         try:
             has_titles = list(g.objects(BDR[id], BDO["hasTitle"]))
             for has_title in has_titles:
-                title_id = get_id(str(has_title))
+                title_id = PersonUtils.get_id(str(has_title))
                 processed_title = ParseWork.get_title_from_id(title_id)
                 has_titles.append(processed_title)
         except Exception as e:
