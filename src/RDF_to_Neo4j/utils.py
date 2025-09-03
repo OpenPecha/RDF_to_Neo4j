@@ -1,49 +1,44 @@
-import requests
-from rdflib import Graph, Namespace
-from rdflib.namespace import SKOS, RDFS, Namespace
+from rdflib import Graph
+from rdflib.namespace import SKOS, RDFS
 from pyewts import pyewts
+from constant import get_constant
+from ttl_utils import TTLUtils
+import hashlib
 
 converter = pyewts()
 
-BDR = Namespace("http://purl.bdrc.io/resource/")
-BDO = Namespace("http://purl.bdrc.io/ontology/core/")
+BDR = get_constant("BDR")
+BDO = get_constant("BDO")
 
+class Utils:
 
-def wylie_to_tibetan(wylie_text):
-    """Convert Wylie transliteration to Tibetan Unicode"""
-    try:
-        result = converter.toUnicode(wylie_text)
-        return result
-    except Exception as e:
-        print(f"Conversion error: {e}")
+    @staticmethod
+    def wylie_to_tibetan(wylie_text):
+        """Convert Wylie transliteration to Tibetan Unicode"""
+        try:
+            result = converter.toUnicode(wylie_text)
+            return result
+        except Exception as e:
+            print(f"Conversion error: {e}")
 
+    @staticmethod
+    def process_title_literal(literal):
+        text = str(literal) 
+        lang_code = literal.language if hasattr(literal, 'language') else None
 
-def get_ttl(id):
-    try:
-        ttl = requests.get(f"https://ldspdi.bdrc.io/resource/{id}.ttl")
-        return ttl.text
-    except Exception as e:
-        print(" TTL not Found!!!", e)
-        return None
+        if lang_code == 'bo-x-ewts':
+            converted_text = Utils.wylie_to_tibetan(text)
+            return {'text': converted_text, 'code': 'bo'}
+        else:
+            return {'text': text, 'code': lang_code}
+        
+    @staticmethod
+    def get_hash(id):
+        md5 = hashlib.md5(str.encode(id))
+        two = md5.hexdigest()[:2]
+        print(two)
 
-
-def get_id(URI):
-    if URI == "None":
-        return None
-    return URI.split("/")[-1]
-
-
-def process_title_literal(literal):
-    text = str(literal) 
-    lang_code = literal.language if hasattr(literal, 'language') else None
-
-    if lang_code == 'bo-x-ewts':
-        converted_text = wylie_to_tibetan(text)
-        return {'text': converted_text, 'code': 'bo'}
-    else:
-        return {'text': text, 'code': lang_code}
-
-
+'''
 def get_role(role_id):
     """
     Extract role information with language preference: English first, then Tibetan.
@@ -64,13 +59,13 @@ def get_role(role_id):
     def find_english_label(labels):
         for label in labels:
             if hasattr(label, 'language') and label.language == 'en':
-                return process_title_literal(label)
+                return Utils.process_title_literal(label)
         return None
     
     def find_tibetan_label(labels):
         for label in labels:
             if hasattr(label, 'language') and label.language in ['bo', 'bo-x-ewts']:
-                return process_title_literal(label)
+                return Utils.process_title_literal(label)
         return None
     
     pref_labels = list(g.objects(BDR[role_id], SKOS.prefLabel))
@@ -96,9 +91,9 @@ def get_role(role_id):
             return tibetan_alt
     
     if pref_labels:
-        return process_title_literal(pref_labels[0])
+        return Utils.process_title_literal(pref_labels[0])
     elif alt_labels:
-        return process_title_literal(alt_labels[0])
+        return Utils.process_title_literal(alt_labels[0])
     
     return None
 
@@ -113,7 +108,7 @@ def get_person_name(person_id):
     Returns:
         dict: Dictionary containing person name information with 'main', 'alternative', and 'has_titles'
     """
-    person_ttl = get_ttl(person_id)
+    person_ttl = TTLUtils.get_ttl(person_id)
     if not person_ttl:
         return {'names': {'main': None, 'alternative': [], 'has_titles': []}}
     
@@ -128,7 +123,7 @@ def get_person_name(person_id):
     try:
         pref_labels = list(g.objects(BDR[person_id], SKOS.prefLabel))
         if pref_labels:
-            name_info['main'] = process_title_literal(pref_labels[0])
+            name_info['main'] = Utils.process_title_literal(pref_labels[0])
     except Exception as e:
         print(f"Error getting prefLabel for person {person_id}: {e}")
     
@@ -137,7 +132,7 @@ def get_person_name(person_id):
         for person_name_entity in person_names:
             labels = list(g.objects(person_name_entity, RDFS.label))
             for label in labels:
-                processed_name = process_title_literal(label)
+                processed_name = Utils.process_title_literal(label)
                 if name_info['main'] and processed_name['text'] != name_info['main']['text']:
                     name_info['alternative'].append(processed_name)
                 elif not name_info['main']:
@@ -222,74 +217,4 @@ def get_contribution(g, work_id):
     
     return contributions
 
-
-
-def get_title(g, id):
-    """
-    Extract title information from RDF graph for a given entity ID.
-    
-    Args:
-        g: RDF graph object
-        id: Entity ID string
-        
-    Returns:
-        dict: Dictionary containing 'main_title', 'alternative_titles', and 'has_titles'
-              Each title is a dict with 'text' and 'code' keys
-    """
-    title_info = {
-        'main': None,
-        'alternative': [],
-        'has_titles': []
-    }
-    
-    try:
-        pref_labels = list(g.objects(BDR[id], SKOS.prefLabel))
-        if pref_labels:
-            title_info['main'] = process_title_literal(pref_labels[0])
-    except Exception as e:
-        print(f"Error getting prefLabel for {id}: {e}")
-    
-    try:
-        alt_labels = list(g.objects(BDR[id], SKOS.altLabel))
-        for alt_label in alt_labels:
-            processed_title = process_title_literal(alt_label)
-            title_info['alternative'].append(processed_title)
-    except Exception as e:
-        print(f"Error getting altLabels for {id}: {e}")
-    
-    try:
-        has_titles = list(g.objects(BDR[id], BDO["hasTitle"]))
-        for has_title in has_titles:
-            title_id = get_id(str(has_title))
-            processed_title = get_title_from_id(title_id)
-            title_info['has_titles'].append(processed_title)
-    except Exception as e:
-        print(f"Error getting hasTitle for {id}: {e}")
-    
-    return {'titles': title_info}
-
-def get_title_from_id(id):
-    ttl = get_ttl(id)
-    if not ttl:
-        return None
-    g = Graph()
-    g.parse(data=ttl, format="ttl")
-    title_info = {
-        'main': None,
-        'alternative': []
-    }
-    try:
-        pref_labels = list(g.objects(BDR[id], SKOS.prefLabel))
-        if pref_labels:
-            title_info['main'] = process_title_literal(pref_labels[0])
-    except Exception as e:
-        print(f"Error getting prefLabel for {id}: {e}")
-    
-    try:
-        alt_labels = list(g.objects(BDR[id], SKOS.altLabel))
-        for alt_label in alt_labels:
-            processed_title = process_title_literal(alt_label)
-            title_info['alternative'].append(processed_title)
-    except Exception as e:
-        print(f"Error getting altLabels for {id}: {e}")
-    return title_info
+'''
