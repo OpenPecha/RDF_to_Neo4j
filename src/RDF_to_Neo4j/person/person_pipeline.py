@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from rdflib import Graph, Namespace
 from rdflib.namespace import SKOS, RDFS
-from RDF_to_Neo4j.utils import process_title_literal, get_ttl, wylie_to_tibetan
+from RDF_to_Neo4j.utils import Utils
 
 # Define namespaces
 BDR = Namespace("http://purl.bdrc.io/resource/")
@@ -13,7 +13,7 @@ def process_literal(literal):
     lang_code = literal.language if hasattr(literal, 'language') else None
 
     if lang_code == 'bo-x-ewts':
-        converted_text = wylie_to_tibetan(text)
+        converted_text = Utils.wylie_to_tibetan(text)
         return {'bo': converted_text}
     else:
         return {lang_code: text}

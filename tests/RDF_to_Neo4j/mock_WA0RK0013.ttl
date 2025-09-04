@@ -1,0 +1,69 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CRWA0RK0013_ATII0
+   a             bdo:AgentAsCreator ;
+   bdo:agent     bdr:P8182 ;
+   bdo:role      bdr:R0ER0026 .
+
+bdr:NTWA0RK0013_ATII0
+   a             bdo:Note ;
+   bdo:noteText  "Attribution information contributed by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg."@en .
+
+bdr:WA0RK0013  a  bdo:Work ;
+   skos:altLabel  "'phags pa mdo sdud pa/"@bo-x-ewts , "'phags pa shes rab kyi pha rol tu phyin pa yan ta rin po che sdud pa/"@bo-x-ewts , "'phags pa shes rab kyi pha rol tu phyin pa yon tan rin po che sdud pa/"@bo-x-ewts , "bcom ldan 'das ma shes rab kyi pha rol tu phyin pa sdud pa tshigs su bcad pa/"@bo-x-ewts , "mdo sdud pa/"@bo-x-ewts , "sdud pa tshigs su bcad pa/"@bo-x-ewts , "ᠬᠣᠳᠣᠬ ᠳᠣ ᠪᠢᠯᠢᠺ ᠦᠨ ᠴᠢᠨᠠᠳᠣ ᠭᠢᠵᠠᠭᠠᠷ᠎ᠠ ᠭᠥᠷᠥᠭᠰᠡᠨ ᠬᠣᠷᠢᠶᠠᠩᠭᠣᠢ ᠰᠢᠯᠥᠭ"@cmg-Mong , "qutug tu bilig ün cinadu kijagar a kürügsen quriyanggui silüg"@cmg-x-poppe ;
+   skos:prefLabel  "'phags pa shes rab kyi pha rol tu phyin pa sdud pa tshigs su bcad pa/"@bo-x-ewts ;
+   bf:identifiedBy  bdr:IDC19CE8_WA0RK0013 ;
+   bdo:creator   bdr:CRWA0RK0013_ATII0 ;
+   bdo:isRoot    true ;
+   bdo:language  bdr:LangBo ;
+   bdo:note      bdr:NTWA0RK0013_ATII0 ;
+   bdo:workHasInstance  bdr:MW1BL4_0013 , bdr:MW1KG12671_0123 , bdr:MW1KG13607_0012 , bdr:MW1PD127393_0017 , bdr:MW1PD96682_0030 , bdr:MW1PD96684_0735 , bdr:MW1PD96685_1002 , bdr:MW22083_0019 , bdr:MW22084_0013 , bdr:MW22703_0017 , bdr:MW26071_0017 , bdr:MW29468_0013 , bdr:MW2KG209840_0110_004 , bdr:MW2KG229028_0052_118 , bdr:MW2KG5014_0017 , bdr:MW2PD17098_0013 , bdr:MW30532_0013 , bdr:MW3CN1094_0735 , bdr:MW3CN20612_0013 , bdr:MW3CN981_0652 , bdr:MW4CZ5369_0013 , bdr:MW4CZ7445_0014 , bdr:MW8LS15931_0001_126 , bdr:MW8LS15931_0001_174 ;
+   bdo:workHasParallelsIn  bdr:WA0TTET0229 , bdr:WA4CZ15639 ;
+   tmp:entityScore  140 ;
+   owl:sameAs    <http://purl.rkts.eu/resource/WKT0013> .

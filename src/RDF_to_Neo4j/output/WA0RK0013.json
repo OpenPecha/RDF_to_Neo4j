@@ -1,0 +1,60 @@
+{
+  "expression_bdrc": "WA0RK0013",
+  "title": {
+    "titles": {
+      "main": {
+        "text": "འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་སྡུད་པ་ཚིགས་སུ་བཅད་པ།",
+        "code": "bo"
+      },
+      "alternative": [
+        {
+          "text": "འཕགས་པ་མདོ་སྡུད་པ།",
+          "code": "bo"
+        },
+        {
+          "text": "འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཡན་ཏ་རིན་པོ་ཆེ་སྡུད་པ།",
+          "code": "bo"
+        },
+        {
+          "text": "འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཡོན་ཏན་རིན་པོ་ཆེ་སྡུད་པ།",
+          "code": "bo"
+        },
+        {
+          "text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་སྡུད་པ་ཚིགས་སུ་བཅད་པ།",
+          "code": "bo"
+        },
+        {
+          "text": "མདོ་སྡུད་པ།",
+          "code": "bo"
+        },
+        {
+          "text": "སྡུད་པ་ཚིགས་སུ་བཅད་པ།",
+          "code": "bo"
+        },
+        {
+          "text": "ᠬᠣᠳᠣᠬ ᠳᠣ ᠪᠢᠯᠢᠺ ᠦᠨ ᠴᠢᠨᠠᠳᠣ ᠭᠢᠵᠠᠭᠠᠷ᠎ᠠ ᠭᠥᠷᠥᠭᠰᠡᠨ ᠬᠣᠷᠢᠶᠠᠩᠭᠣᠢ ᠰᠢᠯᠥᠭ",
+          "code": "cmg-Mong"
+        },
+        {
+          "text": "qutug tu bilig ün cinadu kijagar a kürügsen quriyanggui silüg",
+          "code": "cmg-x-poppe"
+        }
+      ],
+      "has_titles": []
+    }
+  },
+  "language": {
+    "languages": [
+      "bo"
+    ]
+  },
+  "contribution": [
+    {
+      "person_bdrc_id": "P8182",
+      "role": {
+        "text": "translator",
+        "code": "en"
+      }
+    }
+  ]
+}
