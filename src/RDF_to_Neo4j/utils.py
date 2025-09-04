@@ -1,8 +1,5 @@
-from rdflib import Graph
-from rdflib.namespace import SKOS, RDFS
 from pyewts import pyewts
 from constant import get_constant
-from ttl_utils import TTLUtils
 import hashlib
 
 converter = pyewts()
