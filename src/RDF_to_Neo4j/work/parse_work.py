@@ -31,6 +31,7 @@ class ParseWork:
             'language': language,
             "contribution": contribution
         }
+        print("work_info\n", work_info)
         return work_info
     
     @staticmethod
@@ -79,6 +80,7 @@ class ParseWork:
                 alt_lable.append(processed_title)
         except Exception as e:
             print(f"Error getting altLabels for {id}: {e}")
+        print("alt_lable\n", alt_lable)
         return alt_lable
     
     @staticmethod
