@@ -28,7 +28,7 @@ class ParseWork:
         work_info = {
             "expression_bdrc": work_id,
             "title": title,
-            'language': language,
+            'language': language, 
             "contribution": contribution
         }
         print("work_info\n", work_info)
