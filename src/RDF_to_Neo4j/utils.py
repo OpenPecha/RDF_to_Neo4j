@@ -22,7 +22,6 @@ class Utils:
     def process_title_literal(literal):
         text = str(literal) 
         lang_code = literal.language if hasattr(literal, 'language') else None
-
         if lang_code == 'bo-x-ewts':
             converted_text = Utils.wylie_to_tibetan(text)
             return {'text': converted_text, 'code': 'bo'}

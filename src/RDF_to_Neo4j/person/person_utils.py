@@ -26,6 +26,7 @@ class PersonUtils:
     def find_tibetan_label(labels):
         for label in labels:
             if hasattr(label, 'language') and label.language in ['bo', 'bo-x-ewts']:
+                print("label\n", label)
                 return Utils.process_title_literal(label)
         return None
 
@@ -70,8 +71,10 @@ class PersonUtils:
                 return tibetan_alt
         
         if pref_labels:
+            print("pref_labels\n", pref_labels[0])
             return Utils.process_title_literal(pref_labels[0])
         elif alt_labels:
+            print("alt_labels\n", alt_labels[0])
             return Utils.process_title_literal(alt_labels[0])
         
         return None

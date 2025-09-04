@@ -4,9 +4,7 @@ from work.parse_work import ParseWork
 
 def pipeline(work_id):
     ttl_file = TTLUtils.get_ttl(work_id)
-    print(ttl_file)
     work_info = ParseWork.parse_work_ttl(ttl_file, work_id)
-    print(work_info)
     FileOperationUtils.write_json(data=work_info, file_name=work_id)
 
 if __name__ == "__main__":
