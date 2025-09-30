@@ -46,17 +46,12 @@ def get_payload(json_file):
         "title": get_title(json_data),
         "alt_titles": get_alternative_titles(json_data),
         "language": json_data["language"]["languages"][0],
-        "contributions": [
-            {
-                "person_bdrc_id": json_data["contribution"][0]["person"]["bdrc"],
-                "role": json_data["contribution"][0]["role"]["text"]
-            }
-            ]
+        "contributions": []
         }
     return payload
 
-
 if __name__ == "__main__":
-    json_file = Path("work/WA0RK0013.json")
+    json_file = Path("work/WA1KG12670.json")
     payload = get_payload(json_file)
+    print(payload)
     post_expression(payload)
